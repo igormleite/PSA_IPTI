@@ -1,0 +1,5223 @@
+{
+    "config": {
+        "method": "similarityMatrix",
+        "kernel": "linear",
+        "weights": {
+            "protein": 1,
+            "lipid": 0,
+            "calorie": 0,
+            "carbo": 0
+        }
+    },
+    "menuList": [
+        {
+            "code": "1",
+            "name": "Prato de teste",
+            "items": [
+               {
+                  "code": "1",
+                  "replaceable": false
+               }, {
+                  "code": "396",
+                  "replaceable": false
+               }, {
+                  "code": "561",
+                  "replaceable": true
+               }, {
+                  "code": "110",
+                  "replaceable": true
+               }
+            ]
+        },
+        {
+         "code": "2",
+         "name": "Prato de teste 2",
+         "items": [
+            {
+               "code": "1",
+               "replaceable": false
+            }, {
+               "code": "396",
+               "replaceable": false
+            }, {
+               "code": "561",
+               "replaceable": false
+            }, {
+               "code": "110",
+               "replaceable": true
+            }
+         ]
+     }
+    ],
+    "grouping": [
+      {
+          "name": "Leguminosas",
+          "items": [
+              {
+                  "code": "559",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              },
+              {
+                  "code": "561",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              },
+              {
+                  "code": "567",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              },
+              {
+                  "code": "577",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              }
+          ]
+      },
+      {
+          "name": "Carnes",
+          "items": [
+              {
+                  "code": "301",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              },
+              {
+                  "code": "303",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              },
+              {
+                  "code": "326",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              },
+              {
+                  "code": "331",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              },
+              {
+                  "code": "340",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              },
+              {
+                  "code": "344",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              },
+              {
+                  "code": "346",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              },
+              {
+                  "code": "349",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              },
+              {
+                  "code": "351",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              },
+              {
+                  "code": "353",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              },
+              {
+                  "code": "356",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              },
+              {
+                  "code": "396",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              },
+              {
+                  "code": "406",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              },
+              {
+                  "code": "411",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              },
+              {
+                  "code": "422",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              },
+              {
+                  "code": "432",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              },
+              {
+                  "code": "435",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              },
+              {
+                  "code": "488",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              },
+              {
+                  "code": "490",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              },
+              {
+                  "code": "537",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              },
+              {
+                  "code": "538",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              }
+          ]
+      },
+      {
+          "name": "Cereais e raízes",
+          "items": [
+              {
+                  "code": "1",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              },
+              {
+                  "code": "3",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              },
+              {
+                  "code": "86",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              },
+              {
+                  "code": "91",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              },
+              {
+                  "code": "129",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              },
+              {
+                  "code": "542",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              }
+          ]
+      },
+      {
+          "name": "Hortaliças",
+          "items": [
+              {
+                  "code": "69",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              },
+              {
+                  "code": "78",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              },
+              {
+                  "code": "92",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              },
+              {
+                  "code": "98",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              },
+              {
+                  "code": "110",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              },
+              {
+                  "code": "113",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              },
+              {
+                  "code": "115",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              },
+              {
+                  "code": "144",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              },
+              {
+                  "code": "147",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              },
+              {
+                  "code": "157",
+                  "gramsPortion": 1,
+                  "homemadePortion": "1 unidade"
+              }
+          ]
+      }
+  ],
+   "inventory": [
+      {
+         "foodCode": "537",
+         "amount": 10
+      },
+      {
+         "foodCode": "538",
+         "amount": 10
+      },
+      {
+         "foodCode": "356",
+         "amount": 10
+      },
+      {
+         "foodCode": "432",
+         "amount": 10
+      },
+      {
+         "foodCode": "301",
+         "amount": 10
+      },
+      {
+         "foodCode": "303",
+         "amount": 10
+      },
+      {
+         "foodCode": "406",
+         "amount": 10
+      },
+      {
+         "foodCode": "435",
+         "amount": 10
+      },
+      {
+         "foodCode": "490",
+         "amount": 10
+      },
+      {
+         "foodCode": "340",
+         "amount": 10
+      },
+      {
+         "foodCode": "331",
+         "amount": 10
+      },
+      {
+         "foodCode": "344",
+         "amount": 10
+      },
+      {
+         "foodCode": "326",
+         "amount": 10
+      },
+      {
+         "foodCode": "346",
+         "amount": 10
+      },
+      {
+         "foodCode": "396",
+         "amount": 10
+      },
+      {
+         "foodCode": "349",
+         "amount": 10
+      },
+      {
+         "foodCode": "488",
+         "amount": 10
+      },
+      {
+         "foodCode": "353",
+         "amount": 10
+      },
+      {
+         "foodCode": "351",
+         "amount": 10
+      },
+      {
+         "foodCode": "422",
+         "amount": 10
+      },
+      {
+         "foodCode": "411",
+         "amount": 10
+      },
+      {
+         "foodCode": "86",
+         "amount": 10
+      },
+      {
+         "foodCode": "1",
+         "amount": 10
+      },
+      {
+         "foodCode": "91",
+         "amount": 10
+      },
+      {
+         "foodCode": "3",
+         "amount": 10
+      },
+      {
+         "foodCode": "129",
+         "amount": 10
+      },
+      {
+         "foodCode": "542",
+         "amount": 10
+      },
+      {
+         "foodCode": "559",
+         "amount": 10
+      },
+      {
+         "foodCode": "567",
+         "amount": 10
+      },
+      {
+         "foodCode": "577",
+         "amount": 10
+      },
+      {
+         "foodCode": "561",
+         "amount": 10
+      },
+      {
+         "foodCode": "110",
+         "amount": 10
+      },
+      {
+         "foodCode": "69",
+         "amount": 10
+      },
+      {
+         "foodCode": "78",
+         "amount": 10
+      },
+      {
+         "foodCode": "92",
+         "amount": 10
+      },
+      {
+         "foodCode": "98",
+         "amount": 10
+      },
+      {
+         "foodCode": "113",
+         "amount": 10
+      },
+      {
+         "foodCode": "115",
+         "amount": 10
+      },
+      {
+         "foodCode": "144",
+         "amount": 10
+      },
+      {
+         "foodCode": "147",
+         "amount": 10
+      },
+      {
+         "foodCode": "157",
+         "amount": 10
+      }
+   ],
+   "foods": [
+      {
+         "code": "1",
+         "protein": 2.6,
+         "lipid": 1,
+         "carbo": 25.8,
+         "calorie": 124,
+         "name": "Arroz, integral, cozido"
+      },
+      {
+         "code": "2",
+         "protein": 7.3,
+         "lipid": 1.9,
+         "carbo": 77.5,
+         "calorie": 360,
+         "name": "Arroz, integral, cru"
+      },
+      {
+         "code": "3",
+         "protein": 2.5,
+         "lipid": 0.2,
+         "carbo": 28.1,
+         "calorie": 128,
+         "name": "Arroz, tipo 1, cozido"
+      },
+      {
+         "code": "4",
+         "protein": 7.2,
+         "lipid": 0.3,
+         "carbo": 78.8,
+         "calorie": 358,
+         "name": "Arroz, tipo 1, cru"
+      },
+      {
+         "code": "5",
+         "protein": 2.6,
+         "lipid": 0.4,
+         "carbo": 28.2,
+         "calorie": 130,
+         "name": "Arroz, tipo 2, cozido"
+      },
+      {
+         "code": "6",
+         "protein": 7.2,
+         "lipid": 0.3,
+         "carbo": 78.9,
+         "calorie": 358,
+         "name": "Arroz, tipo 2, cru"
+      },
+      {
+         "code": "7",
+         "protein": 13.9,
+         "lipid": 8.5,
+         "carbo": 66.6,
+         "calorie": 394,
+         "name": "Aveia, flocos, crua"
+      },
+      {
+         "code": "8",
+         "protein": 8.1,
+         "lipid": 12,
+         "carbo": 75.2,
+         "calorie": 443,
+         "name": "Biscoito, doce, maisena"
+      },
+      {
+         "code": "9",
+         "protein": 6.4,
+         "lipid": 19.6,
+         "carbo": 70.5,
+         "calorie": 472,
+         "name": "Biscoito, doce, recheado com chocolate"
+      },
+      {
+         "code": "10",
+         "protein": 5.7,
+         "lipid": 19.6,
+         "carbo": 71,
+         "calorie": 471,
+         "name": "Biscoito, doce, recheado com morango"
+      },
+      {
+         "code": "11",
+         "protein": 5.6,
+         "lipid": 24.7,
+         "carbo": 67.5,
+         "calorie": 502,
+         "name": "Biscoito, doce, wafer, recheado de chocolate"
+      },
+      {
+         "code": "12",
+         "protein": 4.5,
+         "lipid": 26.4,
+         "carbo": 67.4,
+         "calorie": 513,
+         "name": "Biscoito, doce, wafer, recheado de morango"
+      },
+      {
+         "code": "13",
+         "protein": 10.1,
+         "lipid": 14.4,
+         "carbo": 68.7,
+         "calorie": 432,
+         "name": "Biscoito, salgado, cream cracker"
+      },
+      {
+         "code": "14",
+         "protein": 6.2,
+         "lipid": 6.1,
+         "carbo": 84.7,
+         "calorie": 419,
+         "name": "Bolo, mistura para"
+      },
+      {
+         "code": "15",
+         "protein": 4.4,
+         "lipid": 12.7,
+         "carbo": 47.9,
+         "calorie": 324,
+         "name": "Bolo, pronto, aipim"
+      },
+      {
+         "code": "16",
+         "protein": 6.2,
+         "lipid": 18.5,
+         "carbo": 54.7,
+         "calorie": 410,
+         "name": "Bolo, pronto, chocolate"
+      },
+      {
+         "code": "17",
+         "protein": 5.7,
+         "lipid": 11.3,
+         "carbo": 52.3,
+         "calorie": 333,
+         "name": "Bolo, pronto, coco"
+      },
+      {
+         "code": "18",
+         "protein": 4.8,
+         "lipid": 12.4,
+         "carbo": 45.1,
+         "calorie": 311,
+         "name": "Bolo, pronto, milho"
+      },
+      {
+         "code": "19",
+         "protein": 7.2,
+         "lipid": 1,
+         "carbo": 78.1,
+         "calorie": 358,
+         "name": "Canjica, branca, crua"
+      },
+      {
+         "code": "20",
+         "protein": 2.4,
+         "lipid": 1.2,
+         "carbo": 23.6,
+         "calorie": 112,
+         "name": "Canjica, com leite integral"
+      },
+      {
+         "code": "21",
+         "protein": 7.3,
+         "lipid": 1.6,
+         "carbo": 80.8,
+         "calorie": 370,
+         "name": "Cereais, milho, flocos, com sal"
+      },
+      {
+         "code": "22",
+         "protein": 6.9,
+         "lipid": 1.2,
+         "carbo": 80.4,
+         "calorie": 363,
+         "name": "Cereais, milho, flocos, sem sal"
+      },
+      {
+         "code": "23",
+         "protein": 6.4,
+         "lipid": 1.1,
+         "carbo": 87.3,
+         "calorie": 394,
+         "name": "Cereais, mingau, milho, infantil"
+      },
+      {
+         "code": "24",
+         "protein": 8.9,
+         "lipid": 2.1,
+         "carbo": 81.6,
+         "calorie": 381,
+         "name": "Cereais, mistura para vitamina, trigo, cevada e aveia"
+      },
+      {
+         "code": "25",
+         "protein": 7.2,
+         "lipid": 1,
+         "carbo": 83.8,
+         "calorie": 365,
+         "name": "Cereal matinal, milho"
+      },
+      {
+         "code": "26",
+         "protein": 4.7,
+         "lipid": 0.7,
+         "carbo": 88.8,
+         "calorie": 377,
+         "name": "Cereal matinal, milho, açúcar"
+      },
+      {
+         "code": "27",
+         "protein": 7,
+         "lipid": 1.2,
+         "carbo": 83.9,
+         "calorie": 386,
+         "name": "Creme de arroz, pó"
+      },
+      {
+         "code": "28",
+         "protein": 4.8,
+         "lipid": 1.6,
+         "carbo": 86.1,
+         "calorie": 333,
+         "name": "Creme de milho, pó"
+      },
+      {
+         "code": "29",
+         "protein": 2.4,
+         "lipid": 1.6,
+         "carbo": 13.9,
+         "calorie": 78,
+         "name": "Curau, milho verde"
+      },
+      {
+         "code": "30",
+         "protein": 2.2,
+         "lipid": 13.4,
+         "carbo": 79.8,
+         "calorie": 402,
+         "name": "Curau, milho verde, mistura para"
+      },
+      {
+         "code": "31",
+         "protein": 1.3,
+         "lipid": 0.3,
+         "carbo": 85.5,
+         "calorie": 363,
+         "name": "Farinha, de arroz, enriquecida"
+      },
+      {
+         "code": "32",
+         "protein": 12.5,
+         "lipid": 1.8,
+         "carbo": 73.3,
+         "calorie": 336,
+         "name": "Farinha, de centeio, integral"
+      },
+      {
+         "code": "33",
+         "protein": 7.2,
+         "lipid": 1.5,
+         "carbo": 79.1,
+         "calorie": 351,
+         "name": "Farinha, de milho, amarela"
+      },
+      {
+         "code": "34",
+         "protein": 11.4,
+         "lipid": 1.5,
+         "carbo": 75.8,
+         "calorie": 371,
+         "name": "Farinha, de rosca"
+      },
+      {
+         "code": "35",
+         "protein": 9.8,
+         "lipid": 1.4,
+         "carbo": 75.1,
+         "calorie": 360,
+         "name": "Farinha, de trigo"
+      },
+      {
+         "code": "36",
+         "protein": 11.9,
+         "lipid": 5.8,
+         "carbo": 77.8,
+         "calorie": 415,
+         "name": "Farinha, láctea, de cereais"
+      },
+      {
+         "code": "37",
+         "protein": 5.8,
+         "lipid": 1.2,
+         "carbo": 32.5,
+         "calorie": 164,
+         "name": "Lasanha, massa fresca, cozida"
+      },
+      {
+         "code": "38",
+         "protein": 7,
+         "lipid": 1.3,
+         "carbo": 45.1,
+         "calorie": 220,
+         "name": "Lasanha, massa fresca, crua"
+      },
+      {
+         "code": "39",
+         "protein": 8.8,
+         "lipid": 17.2,
+         "carbo": 62.4,
+         "calorie": 436,
+         "name": "Macarrão, instantâneo"
+      },
+      {
+         "code": "40",
+         "protein": 10,
+         "lipid": 1.3,
+         "carbo": 77.9,
+         "calorie": 371,
+         "name": "Macarrão, trigo, cru"
+      },
+      {
+         "code": "41",
+         "protein": 10.3,
+         "lipid": 2,
+         "carbo": 76.6,
+         "calorie": 371,
+         "name": "Macarrão, trigo, cru, com ovos"
+      },
+      {
+         "code": "42",
+         "protein": 0.6,
+         "lipid": 0,
+         "carbo": 87.1,
+         "calorie": 361,
+         "name": "Milho, amido, cru"
+      },
+      {
+         "code": "43",
+         "protein": 7.2,
+         "lipid": 1.9,
+         "carbo": 78.9,
+         "calorie": 353,
+         "name": "Milho, fubá, cru"
+      },
+      {
+         "code": "44",
+         "protein": 6.6,
+         "lipid": 0.6,
+         "carbo": 28.6,
+         "calorie": 138,
+         "name": "Milho, verde, cru"
+      },
+      {
+         "code": "45",
+         "protein": 3.2,
+         "lipid": 2.4,
+         "carbo": 17.1,
+         "calorie": 98,
+         "name": "Milho, verde, enlatado, drenado"
+      },
+      {
+         "code": "46",
+         "protein": 0.6,
+         "lipid": 0.4,
+         "carbo": 89.3,
+         "calorie": 373,
+         "name": "Mingau tradicional, pó"
+      },
+      {
+         "code": "47",
+         "protein": 2.6,
+         "lipid": 4.8,
+         "carbo": 30.7,
+         "calorie": 171,
+         "name": "Pamonha, barra para cozimento, pré-cozida"
+      },
+      {
+         "code": "48",
+         "protein": 12.4,
+         "lipid": 5.7,
+         "carbo": 59.6,
+         "calorie": 343,
+         "name": "Pão, aveia, forma"
+      },
+      {
+         "code": "49",
+         "protein": 11.3,
+         "lipid": 3.6,
+         "carbo": 56.5,
+         "calorie": 309,
+         "name": "Pão, de soja"
+      },
+      {
+         "code": "50",
+         "protein": 12,
+         "lipid": 2.7,
+         "carbo": 44.1,
+         "calorie": 253,
+         "name": "Pão, glúten, forma"
+      },
+      {
+         "code": "51",
+         "protein": 8.3,
+         "lipid": 3.1,
+         "carbo": 56.4,
+         "calorie": 292,
+         "name": "Pão, milho, forma"
+      },
+      {
+         "code": "52",
+         "protein": 9.4,
+         "lipid": 3.7,
+         "carbo": 49.9,
+         "calorie": 253,
+         "name": "Pão, trigo, forma, integral"
+      },
+      {
+         "code": "53",
+         "protein": 8,
+         "lipid": 3.1,
+         "carbo": 58.6,
+         "calorie": 300,
+         "name": "Pão, trigo, francês"
+      },
+      {
+         "code": "54",
+         "protein": 8.4,
+         "lipid": 2.8,
+         "carbo": 61.5,
+         "calorie": 311,
+         "name": "Pão, trigo, sovado"
+      },
+      {
+         "code": "55",
+         "protein": 10.7,
+         "lipid": 8.8,
+         "carbo": 42,
+         "calorie": 289,
+         "name": "Pastel, de carne, cru"
+      },
+      {
+         "code": "56",
+         "protein": 10.1,
+         "lipid": 20.1,
+         "carbo": 43.8,
+         "calorie": 388,
+         "name": "Pastel, de carne, frito"
+      },
+      {
+         "code": "57",
+         "protein": 9.9,
+         "lipid": 9.6,
+         "carbo": 45.9,
+         "calorie": 308,
+         "name": "Pastel, de queijo, cru"
+      },
+      {
+         "code": "58",
+         "protein": 8.7,
+         "lipid": 22.7,
+         "carbo": 48.1,
+         "calorie": 422,
+         "name": "Pastel, de queijo, frito"
+      },
+      {
+         "code": "59",
+         "protein": 6.9,
+         "lipid": 5.5,
+         "carbo": 57.4,
+         "calorie": 310,
+         "name": "Pastel, massa, crua"
+      },
+      {
+         "code": "60",
+         "protein": 6,
+         "lipid": 40.9,
+         "carbo": 49.3,
+         "calorie": 570,
+         "name": "Pastel, massa, frita"
+      },
+      {
+         "code": "61",
+         "protein": 9.9,
+         "lipid": 15.9,
+         "carbo": 70.3,
+         "calorie": 448,
+         "name": "Pipoca, com óleo de soja, sem sal"
+      },
+      {
+         "code": "62",
+         "protein": 2.3,
+         "lipid": 0.3,
+         "carbo": 23.3,
+         "calorie": 103,
+         "name": "Polenta, pré-cozida"
+      },
+      {
+         "code": "63",
+         "protein": 10.5,
+         "lipid": 3.3,
+         "carbo": 74.6,
+         "calorie": 377,
+         "name": "Torrada, pão francês"
+      },
+      {
+         "code": "64",
+         "protein": 1.4,
+         "lipid": 0.7,
+         "carbo": 10.8,
+         "calorie": 48,
+         "name": "Abóbora, cabotian, cozida"
+      },
+      {
+         "code": "65",
+         "protein": 1.7,
+         "lipid": 0.5,
+         "carbo": 8.4,
+         "calorie": 39,
+         "name": "Abóbora, cabotian, crua"
+      },
+      {
+         "code": "66",
+         "protein": 0.6,
+         "lipid": 0,
+         "carbo": 3.3,
+         "calorie": 14,
+         "name": "Abóbora, menina brasileira, crua"
+      },
+      {
+         "code": "67",
+         "protein": 1,
+         "lipid": 0.1,
+         "carbo": 2.7,
+         "calorie": 12,
+         "name": "Abóbora, moranga, crua"
+      },
+      {
+         "code": "68",
+         "protein": 0.4,
+         "lipid": 0.8,
+         "carbo": 6,
+         "calorie": 29,
+         "name": "Abóbora, moranga, refogada"
+      },
+      {
+         "code": "69",
+         "protein": 0.7,
+         "lipid": 0.1,
+         "carbo": 6.1,
+         "calorie": 24,
+         "name": "Abobora, pescoço, crua"
+      },
+      {
+         "code": "70",
+         "protein": 1.1,
+         "lipid": 0.2,
+         "carbo": 3,
+         "calorie": 15,
+         "name": "Abobrinha, italiana, cozida"
+      },
+      {
+         "code": "71",
+         "protein": 1.1,
+         "lipid": 0.1,
+         "carbo": 4.3,
+         "calorie": 19,
+         "name": "Abobrinha, italiana, crua"
+      },
+      {
+         "code": "72",
+         "protein": 1.1,
+         "lipid": 0.8,
+         "carbo": 4.2,
+         "calorie": 24,
+         "name": "Abobrinha, italiana, refogada"
+      },
+      {
+         "code": "73",
+         "protein": 0.6,
+         "lipid": 0.1,
+         "carbo": 7.9,
+         "calorie": 31,
+         "name": "Abobrinha, paulista, crua"
+      },
+      {
+         "code": "74",
+         "protein": 1.4,
+         "lipid": 0.1,
+         "carbo": 4.6,
+         "calorie": 21,
+         "name": "Acelga, crua"
+      },
+      {
+         "code": "75",
+         "protein": 2.7,
+         "lipid": 0.2,
+         "carbo": 2.3,
+         "calorie": 17,
+         "name": "Agrião, cru"
+      },
+      {
+         "code": "76",
+         "protein": 0.8,
+         "lipid": 0.1,
+         "carbo": 4.3,
+         "calorie": 19,
+         "name": "Aipo, cru"
+      },
+      {
+         "code": "77",
+         "protein": 0.6,
+         "lipid": 0.1,
+         "carbo": 1.7,
+         "calorie": 9,
+         "name": "Alface, americana, crua"
+      },
+      {
+         "code": "78",
+         "protein": 1.3,
+         "lipid": 0.2,
+         "carbo": 1.7,
+         "calorie": 11,
+         "name": "Alface, crespa, crua"
+      },
+      {
+         "code": "79",
+         "protein": 1.7,
+         "lipid": 0.1,
+         "carbo": 2.4,
+         "calorie": 14,
+         "name": "Alface, lisa, crua"
+      },
+      {
+         "code": "80",
+         "protein": 0.9,
+         "lipid": 0.2,
+         "carbo": 2.5,
+         "calorie": 13,
+         "name": "Alface, roxa, crua"
+      },
+      {
+         "code": "81",
+         "protein": 2.7,
+         "lipid": 0.5,
+         "carbo": 5.2,
+         "calorie": 29,
+         "name": "Alfavaca, crua"
+      },
+      {
+         "code": "82",
+         "protein": 7,
+         "lipid": 0.2,
+         "carbo": 23.9,
+         "calorie": 113,
+         "name": "Alho, cru"
+      },
+      {
+         "code": "83",
+         "protein": 1.4,
+         "lipid": 0.1,
+         "carbo": 6.9,
+         "calorie": 32,
+         "name": "Alho-poró, cru"
+      },
+      {
+         "code": "84",
+         "protein": 1.8,
+         "lipid": 0.2,
+         "carbo": 3.3,
+         "calorie": 18,
+         "name": "Almeirão, cru"
+      },
+      {
+         "code": "85",
+         "protein": 1.7,
+         "lipid": 4.8,
+         "carbo": 5.7,
+         "calorie": 65,
+         "name": "Almeirão, refogado"
+      },
+      {
+         "code": "86",
+         "protein": 0.9,
+         "lipid": 0.2,
+         "carbo": 18.9,
+         "calorie": 80,
+         "name": "Batata, baroa, cozida"
+      },
+      {
+         "code": "87",
+         "protein": 1,
+         "lipid": 0.2,
+         "carbo": 24,
+         "calorie": 101,
+         "name": "Batata, baroa, crua"
+      },
+      {
+         "code": "88",
+         "protein": 0.6,
+         "lipid": 0.1,
+         "carbo": 18.4,
+         "calorie": 77,
+         "name": "Batata, doce, cozida"
+      },
+      {
+         "code": "89",
+         "protein": 1.3,
+         "lipid": 0.1,
+         "carbo": 28.2,
+         "calorie": 118,
+         "name": "Batata, doce, crua"
+      },
+      {
+         "code": "90",
+         "protein": 5.6,
+         "lipid": 36.6,
+         "carbo": 51.2,
+         "calorie": 543,
+         "name": "Batata, frita, tipo chips, industrializada"
+      },
+      {
+         "code": "91",
+         "protein": 1.2,
+         "lipid": 0,
+         "carbo": 11.9,
+         "calorie": 52,
+         "name": "Batata, inglesa, cozida"
+      },
+      {
+         "code": "92",
+         "protein": 1.8,
+         "lipid": 0,
+         "carbo": 14.7,
+         "calorie": 64,
+         "name": "Batata, inglesa, crua"
+      },
+      {
+         "code": "93",
+         "protein": 5,
+         "lipid": 13.1,
+         "carbo": 35.6,
+         "calorie": 267,
+         "name": "Batata, inglesa, frita"
+      },
+      {
+         "code": "94",
+         "protein": 1.3,
+         "lipid": 0.9,
+         "carbo": 14.1,
+         "calorie": 68,
+         "name": "Batata, inglesa, sauté"
+      },
+      {
+         "code": "95",
+         "protein": 0.7,
+         "lipid": 0.1,
+         "carbo": 4.5,
+         "calorie": 19,
+         "name": "Berinjela, cozida"
+      },
+      {
+         "code": "96",
+         "protein": 1.2,
+         "lipid": 0.1,
+         "carbo": 4.4,
+         "calorie": 20,
+         "name": "Berinjela, crua"
+      },
+      {
+         "code": "97",
+         "protein": 1.3,
+         "lipid": 0.1,
+         "carbo": 7.2,
+         "calorie": 32,
+         "name": "Beterraba, cozida"
+      },
+      {
+         "code": "98",
+         "protein": 1.9,
+         "lipid": 0.1,
+         "carbo": 11.1,
+         "calorie": 49,
+         "name": "Beterraba, crua"
+      },
+      {
+         "code": "99",
+         "protein": 1.3,
+         "lipid": 12.2,
+         "carbo": 80.5,
+         "calorie": 438,
+         "name": "Biscoito, polvilho doce"
+      },
+      {
+         "code": "100",
+         "protein": 2.1,
+         "lipid": 0.5,
+         "carbo": 4.4,
+         "calorie": 25,
+         "name": "Brócolis, cozido"
+      },
+      {
+         "code": "101",
+         "protein": 3.6,
+         "lipid": 0.3,
+         "carbo": 4,
+         "calorie": 25,
+         "name": "Brócolis, cru"
+      },
+      {
+         "code": "102",
+         "protein": 1.5,
+         "lipid": 0.1,
+         "carbo": 18.9,
+         "calorie": 78,
+         "name": "Cará, cozido"
+      },
+      {
+         "code": "103",
+         "protein": 2.3,
+         "lipid": 0.1,
+         "carbo": 23,
+         "calorie": 96,
+         "name": "Cará, cru"
+      },
+      {
+         "code": "104",
+         "protein": 3.2,
+         "lipid": 0.6,
+         "carbo": 6,
+         "calorie": 34,
+         "name": "Caruru, cru"
+      },
+      {
+         "code": "105",
+         "protein": 1.9,
+         "lipid": 0.3,
+         "carbo": 4.8,
+         "calorie": 24,
+         "name": "Catalonha, crua"
+      },
+      {
+         "code": "106",
+         "protein": 2,
+         "lipid": 4.8,
+         "carbo": 4.8,
+         "calorie": 63,
+         "name": "Catalonha, refogada"
+      },
+      {
+         "code": "107",
+         "protein": 1.7,
+         "lipid": 0.1,
+         "carbo": 8.9,
+         "calorie": 39,
+         "name": "Cebola, crua"
+      },
+      {
+         "code": "108",
+         "protein": 1.9,
+         "lipid": 0.4,
+         "carbo": 3.4,
+         "calorie": 20,
+         "name": "Cebolinha, crua"
+      },
+      {
+         "code": "109",
+         "protein": 0.8,
+         "lipid": 0.2,
+         "carbo": 6.7,
+         "calorie": 30,
+         "name": "Cenoura, cozida"
+      },
+      {
+         "code": "110",
+         "protein": 1.3,
+         "lipid": 0.2,
+         "carbo": 7.7,
+         "calorie": 34,
+         "name": "Cenoura, crua"
+      },
+      {
+         "code": "111",
+         "protein": 1.1,
+         "lipid": 0.1,
+         "carbo": 2.9,
+         "calorie": 14,
+         "name": "Chicória, crua"
+      },
+      {
+         "code": "112",
+         "protein": 0.4,
+         "lipid": 0,
+         "carbo": 4.8,
+         "calorie": 19,
+         "name": "Chuchu, cozido"
+      },
+      {
+         "code": "113",
+         "protein": 0.7,
+         "lipid": 0.1,
+         "carbo": 4.1,
+         "calorie": 17,
+         "name": "Chuchu, cru"
+      },
+      {
+         "code": "114",
+         "protein": 20.9,
+         "lipid": 10.4,
+         "carbo": 48,
+         "calorie": 309,
+         "name": "Coentro, folhas desidratadas"
+      },
+      {
+         "code": "115",
+         "protein": 2.9,
+         "lipid": 0.5,
+         "carbo": 4.3,
+         "calorie": 27,
+         "name": "Couve, manteiga, crua"
+      },
+      {
+         "code": "116",
+         "protein": 1.7,
+         "lipid": 6.6,
+         "carbo": 8.7,
+         "calorie": 90,
+         "name": "Couve, manteiga, refogada"
+      },
+      {
+         "code": "117",
+         "protein": 1.9,
+         "lipid": 0.2,
+         "carbo": 4.5,
+         "calorie": 23,
+         "name": "Couve-flor, crua"
+      },
+      {
+         "code": "118",
+         "protein": 1.2,
+         "lipid": 0.3,
+         "carbo": 3.9,
+         "calorie": 19,
+         "name": "Couve-flor, cozida"
+      },
+      {
+         "code": "119",
+         "protein": 2,
+         "lipid": 0.2,
+         "carbo": 2.6,
+         "calorie": 16,
+         "name": "Espinafre, Nova Zelândia, cru"
+      },
+      {
+         "code": "120",
+         "protein": 2.7,
+         "lipid": 5.4,
+         "carbo": 4.2,
+         "calorie": 67,
+         "name": "Espinafre, Nova Zelândia, refogado"
+      },
+      {
+         "code": "121",
+         "protein": 1.6,
+         "lipid": 0.3,
+         "carbo": 87.9,
+         "calorie": 361,
+         "name": "Farinha, de mandioca, crua"
+      },
+      {
+         "code": "122",
+         "protein": 1.2,
+         "lipid": 0.3,
+         "carbo": 89.2,
+         "calorie": 365,
+         "name": "Farinha, de mandioca, torrada"
+      },
+      {
+         "code": "123",
+         "protein": 1.6,
+         "lipid": 0.5,
+         "carbo": 87.3,
+         "calorie": 360,
+         "name": "Farinha, de puba"
+      },
+      {
+         "code": "124",
+         "protein": 0.5,
+         "lipid": 0.3,
+         "carbo": 81.1,
+         "calorie": 331,
+         "name": "Fécula, de mandioca"
+      },
+      {
+         "code": "125",
+         "protein": 4.2,
+         "lipid": 0.1,
+         "carbo": 7.8,
+         "calorie": 39,
+         "name": "Feijão, broto, cru"
+      },
+      {
+         "code": "126",
+         "protein": 2.1,
+         "lipid": 0.2,
+         "carbo": 23.2,
+         "calorie": 97,
+         "name": "Inhame, cru"
+      },
+      {
+         "code": "127",
+         "protein": 1.4,
+         "lipid": 0.2,
+         "carbo": 6.2,
+         "calorie": 27,
+         "name": "Jiló, cru"
+      },
+      {
+         "code": "128",
+         "protein": 4.4,
+         "lipid": 3.9,
+         "carbo": 23.1,
+         "calorie": 126,
+         "name": "Jurubeba, crua"
+      },
+      {
+         "code": "129",
+         "protein": 0.6,
+         "lipid": 0.3,
+         "carbo": 30.1,
+         "calorie": 125,
+         "name": "Mandioca, cozida"
+      },
+      {
+         "code": "130",
+         "protein": 1.1,
+         "lipid": 0.3,
+         "carbo": 36.2,
+         "calorie": 151,
+         "name": "Mandioca, crua"
+      },
+      {
+         "code": "131",
+         "protein": 2.1,
+         "lipid": 9.1,
+         "carbo": 80.3,
+         "calorie": 406,
+         "name": "Mandioca, farofa, temperada"
+      },
+      {
+         "code": "132",
+         "protein": 1.4,
+         "lipid": 11.2,
+         "carbo": 50.3,
+         "calorie": 300,
+         "name": "Mandioca, frita"
+      },
+      {
+         "code": "133",
+         "protein": 2,
+         "lipid": 0.4,
+         "carbo": 3.6,
+         "calorie": 21,
+         "name": "Manjericão, cru"
+      },
+      {
+         "code": "134",
+         "protein": 1.4,
+         "lipid": 0.1,
+         "carbo": 2.7,
+         "calorie": 14,
+         "name": "Maxixe, cru"
+      },
+      {
+         "code": "135",
+         "protein": 2.1,
+         "lipid": 0.2,
+         "carbo": 3.2,
+         "calorie": 18,
+         "name": "Mostarda, folha, crua"
+      },
+      {
+         "code": "136",
+         "protein": 5.9,
+         "lipid": 1.9,
+         "carbo": 36.8,
+         "calorie": 181,
+         "name": "Nhoque, batata, cozido"
+      },
+      {
+         "code": "137",
+         "protein": 1.2,
+         "lipid": 0.1,
+         "carbo": 4.1,
+         "calorie": 18,
+         "name": "Nabo, cru"
+      },
+      {
+         "code": "138",
+         "protein": 1.8,
+         "lipid": 0.4,
+         "carbo": 4.3,
+         "calorie": 23,
+         "name": "Palmito, juçara, em conserva"
+      },
+      {
+         "code": "139",
+         "protein": 2.5,
+         "lipid": 0.5,
+         "carbo": 5.5,
+         "calorie": 29,
+         "name": "Palmito, pupunha, em conserva"
+      },
+      {
+         "code": "140",
+         "protein": 5.1,
+         "lipid": 24.6,
+         "carbo": 34.2,
+         "calorie": 363,
+         "name": "Pão, de queijo, assado"
+      },
+      {
+         "code": "141",
+         "protein": 3.6,
+         "lipid": 14,
+         "carbo": 38.5,
+         "calorie": 295,
+         "name": "Pão, de queijo, cru"
+      },
+      {
+         "code": "142",
+         "protein": 0.9,
+         "lipid": 0,
+         "carbo": 2,
+         "calorie": 10,
+         "name": "Pepino, cru"
+      },
+      {
+         "code": "143",
+         "protein": 1.2,
+         "lipid": 0.4,
+         "carbo": 6,
+         "calorie": 28,
+         "name": "Pimentão, amarelo, cru"
+      },
+      {
+         "code": "144",
+         "protein": 1.1,
+         "lipid": 0.2,
+         "carbo": 4.9,
+         "calorie": 21,
+         "name": "Pimentão, verde, cru"
+      },
+      {
+         "code": "145",
+         "protein": 1,
+         "lipid": 0.1,
+         "carbo": 5.5,
+         "calorie": 23,
+         "name": "Pimentão, vermelho, cru"
+      },
+      {
+         "code": "146",
+         "protein": 0.4,
+         "lipid": 0,
+         "carbo": 86.8,
+         "calorie": 351,
+         "name": "Polvilho, doce"
+      },
+      {
+         "code": "147",
+         "protein": 1.9,
+         "lipid": 0.3,
+         "carbo": 6.4,
+         "calorie": 30,
+         "name": "Quiabo, cru"
+      },
+      {
+         "code": "148",
+         "protein": 1.4,
+         "lipid": 0.1,
+         "carbo": 2.7,
+         "calorie": 14,
+         "name": "Rabanete, cru"
+      },
+      {
+         "code": "149",
+         "protein": 0.9,
+         "lipid": 0.1,
+         "carbo": 3.9,
+         "calorie": 17,
+         "name": "Repolho, branco, cru"
+      },
+      {
+         "code": "150",
+         "protein": 1.9,
+         "lipid": 0.1,
+         "carbo": 7.2,
+         "calorie": 31,
+         "name": "Repolho, roxo, cru"
+      },
+      {
+         "code": "151",
+         "protein": 1.8,
+         "lipid": 1.2,
+         "carbo": 7.6,
+         "calorie": 42,
+         "name": "Repolho, roxo, refogado"
+      },
+      {
+         "code": "152",
+         "protein": 1.8,
+         "lipid": 0.1,
+         "carbo": 2.2,
+         "calorie": 13,
+         "name": "Rúcula, crua"
+      },
+      {
+         "code": "153",
+         "protein": 3.3,
+         "lipid": 0.6,
+         "carbo": 5.7,
+         "calorie": 33,
+         "name": "Salsa, crua"
+      },
+      {
+         "code": "154",
+         "protein": 3.4,
+         "lipid": 0.4,
+         "carbo": 12.7,
+         "calorie": 57,
+         "name": "Seleta de legumes, enlatada"
+      },
+      {
+         "code": "155",
+         "protein": 2.7,
+         "lipid": 0.7,
+         "carbo": 4.9,
+         "calorie": 30,
+         "name": "Serralha, crua"
+      },
+      {
+         "code": "156",
+         "protein": 2.9,
+         "lipid": 0.9,
+         "carbo": 5.4,
+         "calorie": 34,
+         "name": "Taioba, crua"
+      },
+      {
+         "code": "157",
+         "protein": 1.1,
+         "lipid": 0.2,
+         "carbo": 3.1,
+         "calorie": 15,
+         "name": "Tomate, com semente, cru"
+      },
+      {
+         "code": "158",
+         "protein": 2.4,
+         "lipid": 0.2,
+         "carbo": 15,
+         "calorie": 61,
+         "name": "Tomate, extrato"
+      },
+      {
+         "code": "159",
+         "protein": 1.4,
+         "lipid": 0.9,
+         "carbo": 7.7,
+         "calorie": 38,
+         "name": "Tomate, molho industrializado"
+      },
+      {
+         "code": "160",
+         "protein": 1.4,
+         "lipid": 0,
+         "carbo": 6.9,
+         "calorie": 28,
+         "name": "Tomate, purê"
+      },
+      {
+         "code": "161",
+         "protein": 0.8,
+         "lipid": 0,
+         "carbo": 5.1,
+         "calorie": 21,
+         "name": "Tomate, salada"
+      },
+      {
+         "code": "162",
+         "protein": 1.8,
+         "lipid": 0.2,
+         "carbo": 5.3,
+         "calorie": 25,
+         "name": "Vagem, crua"
+      },
+      {
+         "code": "163",
+         "protein": 1.2,
+         "lipid": 8.4,
+         "carbo": 6,
+         "calorie": 96,
+         "name": "Abacate, cru"
+      },
+      {
+         "code": "164",
+         "protein": 0.9,
+         "lipid": 0.1,
+         "carbo": 12.3,
+         "calorie": 48,
+         "name": "Abacaxi, cru"
+      },
+      {
+         "code": "165",
+         "protein": 0.5,
+         "lipid": 0.1,
+         "carbo": 7.8,
+         "calorie": 31,
+         "name": "Abacaxi, polpa, congelada"
+      },
+      {
+         "code": "166",
+         "protein": 0.8,
+         "lipid": 0.7,
+         "carbo": 14.9,
+         "calorie": 62,
+         "name": "Abiu, cru"
+      },
+      {
+         "code": "167",
+         "protein": 0.7,
+         "lipid": 3.7,
+         "carbo": 21.5,
+         "calorie": 110,
+         "name": "Açaí, polpa, com xarope de guaraná e glucose"
+      },
+      {
+         "code": "168",
+         "protein": 0.8,
+         "lipid": 3.9,
+         "carbo": 6.2,
+         "calorie": 58,
+         "name": "Açaí, polpa, congelada"
+      },
+      {
+         "code": "169",
+         "protein": 0.9,
+         "lipid": 0.2,
+         "carbo": 8,
+         "calorie": 33,
+         "name": "Acerola, crua"
+      },
+      {
+         "code": "170",
+         "protein": 0.6,
+         "lipid": 0,
+         "carbo": 5.5,
+         "calorie": 22,
+         "name": "Acerola, polpa, congelada"
+      },
+      {
+         "code": "171",
+         "protein": 0.4,
+         "lipid": 0,
+         "carbo": 46.9,
+         "calorie": 183,
+         "name": "Ameixa, calda, enlatada"
+      },
+      {
+         "code": "172",
+         "protein": 0.8,
+         "lipid": 0,
+         "carbo": 13.9,
+         "calorie": 53,
+         "name": "Ameixa, crua"
+      },
+      {
+         "code": "173",
+         "protein": 1,
+         "lipid": 0.3,
+         "carbo": 47.7,
+         "calorie": 177,
+         "name": "Ameixa, em calda, enlatada, drenada"
+      },
+      {
+         "code": "174",
+         "protein": 1,
+         "lipid": 0.3,
+         "carbo": 25.3,
+         "calorie": 97,
+         "name": "Atemóia, crua"
+      },
+      {
+         "code": "175",
+         "protein": 1.4,
+         "lipid": 0.2,
+         "carbo": 33.7,
+         "calorie": 128,
+         "name": "Banana, da terra, crua"
+      },
+      {
+         "code": "176",
+         "protein": 2.2,
+         "lipid": 0.1,
+         "carbo": 75.7,
+         "calorie": 280,
+         "name": "Banana, doce em barra"
+      },
+      {
+         "code": "177",
+         "protein": 1.1,
+         "lipid": 0.1,
+         "carbo": 27.8,
+         "calorie": 105,
+         "name": "Banana, figo, crua"
+      },
+      {
+         "code": "178",
+         "protein": 1.8,
+         "lipid": 0.1,
+         "carbo": 22.3,
+         "calorie": 87,
+         "name": "Banana, maçã, crua"
+      },
+      {
+         "code": "179",
+         "protein": 1.4,
+         "lipid": 0.1,
+         "carbo": 23.8,
+         "calorie": 92,
+         "name": "Banana, nanica, crua"
+      },
+      {
+         "code": "180",
+         "protein": 1.5,
+         "lipid": 0.2,
+         "carbo": 29.3,
+         "calorie": 112,
+         "name": "Banana, ouro, crua"
+      },
+      {
+         "code": "181",
+         "protein": 1.2,
+         "lipid": 0.1,
+         "carbo": 20.3,
+         "calorie": 78,
+         "name": "Banana, pacova, crua"
+      },
+      {
+         "code": "182",
+         "protein": 1.3,
+         "lipid": 0.1,
+         "carbo": 26,
+         "calorie": 98,
+         "name": "Banana, prata, crua"
+      },
+      {
+         "code": "183",
+         "protein": 1,
+         "lipid": 0.1,
+         "carbo": 19.4,
+         "calorie": 74,
+         "name": "Cacau, cru"
+      },
+      {
+         "code": "184",
+         "protein": 1.3,
+         "lipid": 0,
+         "carbo": 11.4,
+         "calorie": 46,
+         "name": "Cajá-Manga, cru"
+      },
+      {
+         "code": "185",
+         "protein": 0.6,
+         "lipid": 0.2,
+         "carbo": 6.4,
+         "calorie": 26,
+         "name": "Cajá, polpa, congelada"
+      },
+      {
+         "code": "186",
+         "protein": 1,
+         "lipid": 0.3,
+         "carbo": 10.3,
+         "calorie": 43,
+         "name": "Caju, cru"
+      },
+      {
+         "code": "187",
+         "protein": 0.5,
+         "lipid": 0.2,
+         "carbo": 9.4,
+         "calorie": 37,
+         "name": "Caju, polpa, congelada"
+      },
+      {
+         "code": "188",
+         "protein": 0.4,
+         "lipid": 0.2,
+         "carbo": 10.7,
+         "calorie": 45,
+         "name": "Caju, suco concentrado, envasado"
+      },
+      {
+         "code": "189",
+         "protein": 0.4,
+         "lipid": 0.1,
+         "carbo": 19.3,
+         "calorie": 71,
+         "name": "Caqui, chocolate, cru"
+      },
+      {
+         "code": "190",
+         "protein": 0.9,
+         "lipid": 0.2,
+         "carbo": 11.5,
+         "calorie": 46,
+         "name": "Carambola, crua"
+      },
+      {
+         "code": "191",
+         "protein": 1.4,
+         "lipid": 0.4,
+         "carbo": 18.9,
+         "calorie": 76,
+         "name": "Ciriguela, crua"
+      },
+      {
+         "code": "192",
+         "protein": 1.2,
+         "lipid": 1,
+         "carbo": 10.4,
+         "calorie": 49,
+         "name": "Cupuaçu, cru"
+      },
+      {
+         "code": "193",
+         "protein": 0.8,
+         "lipid": 0.6,
+         "carbo": 11.4,
+         "calorie": 49,
+         "name": "Cupuaçu, polpa, congelada"
+      },
+      {
+         "code": "194",
+         "protein": 1,
+         "lipid": 0.2,
+         "carbo": 10.2,
+         "calorie": 41,
+         "name": "Figo, cru"
+      },
+      {
+         "code": "195",
+         "protein": 0.6,
+         "lipid": 0.2,
+         "carbo": 50.3,
+         "calorie": 184,
+         "name": "Figo, enlatado, em calda"
+      },
+      {
+         "code": "196",
+         "protein": 1.1,
+         "lipid": 0.2,
+         "carbo": 17.2,
+         "calorie": 67,
+         "name": "Fruta-pão, crua"
+      },
+      {
+         "code": "197",
+         "protein": 0.9,
+         "lipid": 0.5,
+         "carbo": 12.4,
+         "calorie": 52,
+         "name": "Goiaba, branca, com casca, crua"
+      },
+      {
+         "code": "198",
+         "protein": 0.6,
+         "lipid": 0,
+         "carbo": 74.1,
+         "calorie": 269,
+         "name": "Goiaba, doce em pasta"
+      },
+      {
+         "code": "199",
+         "protein": 0.4,
+         "lipid": 0.1,
+         "carbo": 78.7,
+         "calorie": 286,
+         "name": "Goiaba, doce, cascão"
+      },
+      {
+         "code": "200",
+         "protein": 1.1,
+         "lipid": 0.4,
+         "carbo": 13,
+         "calorie": 54,
+         "name": "Goiaba, vermelha, com casca, crua"
+      },
+      {
+         "code": "201",
+         "protein": 0.8,
+         "lipid": 0.2,
+         "carbo": 15.8,
+         "calorie": 62,
+         "name": "Graviola, crua"
+      },
+      {
+         "code": "202",
+         "protein": 0.6,
+         "lipid": 0.1,
+         "carbo": 9.8,
+         "calorie": 38,
+         "name": "Graviola, polpa, congelada"
+      },
+      {
+         "code": "203",
+         "protein": 0.6,
+         "lipid": 0.1,
+         "carbo": 15.3,
+         "calorie": 58,
+         "name": "Jabuticaba, crua"
+      },
+      {
+         "code": "204",
+         "protein": 1.4,
+         "lipid": 0.3,
+         "carbo": 22.5,
+         "calorie": 88,
+         "name": "Jaca, crua"
+      },
+      {
+         "code": "205",
+         "protein": 0.9,
+         "lipid": 0.1,
+         "carbo": 6.5,
+         "calorie": 27,
+         "name": "Jambo, cru"
+      },
+      {
+         "code": "206",
+         "protein": 0.5,
+         "lipid": 0.1,
+         "carbo": 10.6,
+         "calorie": 41,
+         "name": "Jamelão, cru"
+      },
+      {
+         "code": "207",
+         "protein": 1.3,
+         "lipid": 0.6,
+         "carbo": 11.5,
+         "calorie": 51,
+         "name": "Kiwi, cru"
+      },
+      {
+         "code": "208",
+         "protein": 1,
+         "lipid": 0.1,
+         "carbo": 11.5,
+         "calorie": 45,
+         "name": "Laranja, baía, crua"
+      },
+      {
+         "code": "209",
+         "protein": 0.7,
+         "lipid": 0,
+         "carbo": 8.7,
+         "calorie": 37,
+         "name": "Laranja, baía, suco"
+      },
+      {
+         "code": "210",
+         "protein": 1.1,
+         "lipid": 0.2,
+         "carbo": 12.9,
+         "calorie": 51,
+         "name": "Laranja, da terra, crua"
+      },
+      {
+         "code": "211",
+         "protein": 0.7,
+         "lipid": 0.1,
+         "carbo": 9.6,
+         "calorie": 41,
+         "name": "Laranja, da terra, suco"
+      },
+      {
+         "code": "212",
+         "protein": 1.1,
+         "lipid": 0.1,
+         "carbo": 11.5,
+         "calorie": 46,
+         "name": "Laranja, lima, crua"
+      },
+      {
+         "code": "213",
+         "protein": 0.7,
+         "lipid": 0.1,
+         "carbo": 9.2,
+         "calorie": 39,
+         "name": "Laranja, lima, suco"
+      },
+      {
+         "code": "214",
+         "protein": 1,
+         "lipid": 0.1,
+         "carbo": 8.9,
+         "calorie": 37,
+         "name": "Laranja, pêra, crua"
+      },
+      {
+         "code": "215",
+         "protein": 0.7,
+         "lipid": 0.1,
+         "carbo": 7.6,
+         "calorie": 33,
+         "name": "Laranja, pêra, suco"
+      },
+      {
+         "code": "216",
+         "protein": 0.8,
+         "lipid": 0.2,
+         "carbo": 11.7,
+         "calorie": 46,
+         "name": "Laranja, valência, crua"
+      },
+      {
+         "code": "217",
+         "protein": 0.5,
+         "lipid": 0.1,
+         "carbo": 8.6,
+         "calorie": 36,
+         "name": "Laranja, valência, suco"
+      },
+      {
+         "code": "218",
+         "protein": 0.3,
+         "lipid": 0,
+         "carbo": 5.2,
+         "calorie": 14,
+         "name": "Limão, cravo, suco"
+      },
+      {
+         "code": "219",
+         "protein": 0.6,
+         "lipid": 0.1,
+         "carbo": 7.3,
+         "calorie": 22,
+         "name": "Limão, galego, suco"
+      },
+      {
+         "code": "220",
+         "protein": 0.9,
+         "lipid": 0.1,
+         "carbo": 11.1,
+         "calorie": 32,
+         "name": "Limão, tahiti, cru"
+      },
+      {
+         "code": "221",
+         "protein": 0.2,
+         "lipid": 0.2,
+         "carbo": 16.6,
+         "calorie": 63,
+         "name": "Maçã, Argentina, com casca, crua"
+      },
+      {
+         "code": "222",
+         "protein": 0.3,
+         "lipid": 0,
+         "carbo": 15.2,
+         "calorie": 56,
+         "name": "Maçã, Fuji, com casca, crua"
+      },
+      {
+         "code": "223",
+         "protein": 2.1,
+         "lipid": 40.7,
+         "carbo": 13.9,
+         "calorie": 404,
+         "name": "Macaúba, crua"
+      },
+      {
+         "code": "224",
+         "protein": 0.2,
+         "lipid": 0.1,
+         "carbo": 54,
+         "calorie": 196,
+         "name": "Mamão, doce em calda, drenado"
+      },
+      {
+         "code": "225",
+         "protein": 0.8,
+         "lipid": 0.1,
+         "carbo": 11.6,
+         "calorie": 45,
+         "name": "Mamão, Formosa, cru"
+      },
+      {
+         "code": "226",
+         "protein": 0.5,
+         "lipid": 0.1,
+         "carbo": 10.4,
+         "calorie": 40,
+         "name": "Mamão, Papaia, cru"
+      },
+      {
+         "code": "227",
+         "protein": 0.3,
+         "lipid": 0.1,
+         "carbo": 57.6,
+         "calorie": 209,
+         "name": "Mamão verde, doce em calda, drenado"
+      },
+      {
+         "code": "228",
+         "protein": 0.4,
+         "lipid": 0.3,
+         "carbo": 16.7,
+         "calorie": 64,
+         "name": "Manga, Haden, crua"
+      },
+      {
+         "code": "229",
+         "protein": 0.4,
+         "lipid": 0.2,
+         "carbo": 19.4,
+         "calorie": 72,
+         "name": "Manga, Palmer, crua"
+      },
+      {
+         "code": "230",
+         "protein": 0.4,
+         "lipid": 0.2,
+         "carbo": 12.5,
+         "calorie": 48,
+         "name": "Manga, polpa, congelada"
+      },
+      {
+         "code": "231",
+         "protein": 0.9,
+         "lipid": 0.2,
+         "carbo": 12.8,
+         "calorie": 51,
+         "name": "Manga, Tommy Atkins, crua"
+      },
+      {
+         "code": "232",
+         "protein": 2,
+         "lipid": 2.1,
+         "carbo": 12.3,
+         "calorie": 68,
+         "name": "Maracujá, cru"
+      },
+      {
+         "code": "233",
+         "protein": 0.8,
+         "lipid": 0.2,
+         "carbo": 9.6,
+         "calorie": 39,
+         "name": "Maracujá, polpa, congelada"
+      },
+      {
+         "code": "234",
+         "protein": 0.8,
+         "lipid": 0.2,
+         "carbo": 9.6,
+         "calorie": 42,
+         "name": "Maracujá, suco concentrado, envasado"
+      },
+      {
+         "code": "235",
+         "protein": 0.9,
+         "lipid": 0,
+         "carbo": 8.1,
+         "calorie": 33,
+         "name": "Melancia, crua"
+      },
+      {
+         "code": "236",
+         "protein": 0.7,
+         "lipid": 0,
+         "carbo": 7.5,
+         "calorie": 29,
+         "name": "Melão, cru"
+      },
+      {
+         "code": "237",
+         "protein": 0.9,
+         "lipid": 0.1,
+         "carbo": 14.9,
+         "calorie": 58,
+         "name": "Mexerica, Murcote, crua"
+      },
+      {
+         "code": "238",
+         "protein": 0.7,
+         "lipid": 0.1,
+         "carbo": 9.3,
+         "calorie": 37,
+         "name": "Mexerica, Rio, crua"
+      },
+      {
+         "code": "239",
+         "protein": 0.9,
+         "lipid": 0.3,
+         "carbo": 6.8,
+         "calorie": 30,
+         "name": "Morango, cru"
+      },
+      {
+         "code": "240",
+         "protein": 0.3,
+         "lipid": 0,
+         "carbo": 11.5,
+         "calorie": 43,
+         "name": "Nêspera, crua"
+      },
+      {
+         "code": "241",
+         "protein": 2.3,
+         "lipid": 18,
+         "carbo": 13,
+         "calorie": 205,
+         "name": "Pequi, cru"
+      },
+      {
+         "code": "242",
+         "protein": 0.2,
+         "lipid": 0.2,
+         "carbo": 16.1,
+         "calorie": 61,
+         "name": "Pêra, Park, crua"
+      },
+      {
+         "code": "243",
+         "protein": 0.6,
+         "lipid": 0.1,
+         "carbo": 14,
+         "calorie": 53,
+         "name": "Pêra, Williams, crua"
+      },
+      {
+         "code": "244",
+         "protein": 0.8,
+         "lipid": 0,
+         "carbo": 9.3,
+         "calorie": 36,
+         "name": "Pêssego, Aurora, cru"
+      },
+      {
+         "code": "245",
+         "protein": 0.7,
+         "lipid": 0,
+         "carbo": 16.9,
+         "calorie": 63,
+         "name": "Pêssego, enlatado, em calda"
+      },
+      {
+         "code": "246",
+         "protein": 1.5,
+         "lipid": 0.3,
+         "carbo": 22.4,
+         "calorie": 88,
+         "name": "Pinha, crua"
+      },
+      {
+         "code": "247",
+         "protein": 0.9,
+         "lipid": 0.2,
+         "carbo": 10.2,
+         "calorie": 41,
+         "name": "Pitanga, crua"
+      },
+      {
+         "code": "248",
+         "protein": 0.3,
+         "lipid": 0.1,
+         "carbo": 4.8,
+         "calorie": 19,
+         "name": "Pitanga, polpa, congelada"
+      },
+      {
+         "code": "249",
+         "protein": 0.4,
+         "lipid": 0,
+         "carbo": 15.1,
+         "calorie": 56,
+         "name": "Romã, crua"
+      },
+      {
+         "code": "250",
+         "protein": 3.2,
+         "lipid": 0.5,
+         "carbo": 72.5,
+         "calorie": 276,
+         "name": "Tamarindo, cru"
+      },
+      {
+         "code": "251",
+         "protein": 0.8,
+         "lipid": 0.1,
+         "carbo": 9.6,
+         "calorie": 38,
+         "name": "Tangerina, Poncã, crua"
+      },
+      {
+         "code": "252",
+         "protein": 0.5,
+         "lipid": 0,
+         "carbo": 8.8,
+         "calorie": 36,
+         "name": "Tangerina, Poncã, suco"
+      },
+      {
+         "code": "253",
+         "protein": 2.1,
+         "lipid": 19.1,
+         "carbo": 26.5,
+         "calorie": 262,
+         "name": "Tucumã, cru"
+      },
+      {
+         "code": "254",
+         "protein": 0.8,
+         "lipid": 0,
+         "carbo": 9.4,
+         "calorie": 37,
+         "name": "Umbu, cru"
+      },
+      {
+         "code": "255",
+         "protein": 0.5,
+         "lipid": 0.1,
+         "carbo": 8.8,
+         "calorie": 34,
+         "name": "Umbu, polpa, congelada"
+      },
+      {
+         "code": "256",
+         "protein": 0.7,
+         "lipid": 0.2,
+         "carbo": 13.6,
+         "calorie": 53,
+         "name": "Uva, Itália, crua"
+      },
+      {
+         "code": "257",
+         "protein": 0.6,
+         "lipid": 0.2,
+         "carbo": 12.7,
+         "calorie": 49,
+         "name": "Uva, Rubi, crua"
+      },
+      {
+         "code": "258",
+         "protein": 0,
+         "lipid": 0,
+         "carbo": 14.7,
+         "calorie": 58,
+         "name": "Uva, suco concentrado, envasado"
+      },
+      {
+         "code": "259",
+         "protein": 0,
+         "lipid": 100,
+         "carbo": 0,
+         "calorie": 884,
+         "name": "Azeite, de dendê"
+      },
+      {
+         "code": "260",
+         "protein": 0,
+         "lipid": 100,
+         "carbo": 0,
+         "calorie": 884,
+         "name": "Azeite, de oliva, extra virgem"
+      },
+      {
+         "code": "261",
+         "protein": 0.4,
+         "lipid": 82.4,
+         "carbo": 0.1,
+         "calorie": 726,
+         "name": "Manteiga, com sal"
+      },
+      {
+         "code": "262",
+         "protein": 0.4,
+         "lipid": 86,
+         "carbo": 0,
+         "calorie": 758,
+         "name": "Manteiga, sem sal"
+      },
+      {
+         "code": "263",
+         "protein": 0,
+         "lipid": 67.4,
+         "carbo": 0,
+         "calorie": 596,
+         "name": "Margarina, com óleo hidrogenado, com sal (65% de lipídeos)"
+      },
+      {
+         "code": "264",
+         "protein": 0,
+         "lipid": 81.7,
+         "carbo": 0,
+         "calorie": 723,
+         "name": "Margarina, com óleo hidrogenado, sem sal (80% de lipídeos)"
+      },
+      {
+         "code": "265",
+         "protein": 0,
+         "lipid": 67.2,
+         "carbo": 0,
+         "calorie": 594,
+         "name": "Margarina, com óleo interesterificado, com sal (65%de lipídeos)"
+      },
+      {
+         "code": "266",
+         "protein": 0,
+         "lipid": 67.1,
+         "carbo": 0,
+         "calorie": 593,
+         "name": "Margarina, com óleo interesterificado, sem sal (65% de lipídeos)"
+      },
+      {
+         "code": "267",
+         "protein": 0,
+         "lipid": 100,
+         "carbo": 0,
+         "calorie": 884,
+         "name": "Óleo, de babaçu"
+      },
+      {
+         "code": "268",
+         "protein": 0,
+         "lipid": 100,
+         "carbo": 0,
+         "calorie": 884,
+         "name": "Óleo, de canola"
+      },
+      {
+         "code": "269",
+         "protein": 0,
+         "lipid": 100,
+         "carbo": 0,
+         "calorie": 884,
+         "name": "Óleo, de girassol"
+      },
+      {
+         "code": "270",
+         "protein": 0,
+         "lipid": 100,
+         "carbo": 0,
+         "calorie": 884,
+         "name": "Óleo, de milho"
+      },
+      {
+         "code": "271",
+         "protein": 0,
+         "lipid": 100,
+         "carbo": 0,
+         "calorie": 884,
+         "name": "Óleo, de pequi"
+      },
+      {
+         "code": "272",
+         "protein": 0,
+         "lipid": 100,
+         "carbo": 0,
+         "calorie": 884,
+         "name": "Óleo, de soja"
+      },
+      {
+         "code": "273",
+         "protein": 23.5,
+         "lipid": 1.2,
+         "carbo": 0,
+         "calorie": 112,
+         "name": "Abadejo, filé, congelado, assado"
+      },
+      {
+         "code": "274",
+         "protein": 19.3,
+         "lipid": 0.9,
+         "carbo": 0,
+         "calorie": 91,
+         "name": "Abadejo, filé, congelado,cozido"
+      },
+      {
+         "code": "275",
+         "protein": 13.1,
+         "lipid": 0.4,
+         "carbo": 0,
+         "calorie": 59,
+         "name": "Abadejo, filé, congelado, cru"
+      },
+      {
+         "code": "276",
+         "protein": 27.6,
+         "lipid": 1.3,
+         "carbo": 0,
+         "calorie": 130,
+         "name": "Abadejo, filé, congelado, grelhado"
+      },
+      {
+         "code": "277",
+         "protein": 26.2,
+         "lipid": 6,
+         "carbo": 0,
+         "calorie": 166,
+         "name": "Atum, conserva em óleo"
+      },
+      {
+         "code": "278",
+         "protein": 25.7,
+         "lipid": 0.9,
+         "carbo": 0,
+         "calorie": 118,
+         "name": "Atum, fresco, cru"
+      },
+      {
+         "code": "279",
+         "protein": 29,
+         "lipid": 1.3,
+         "carbo": 0,
+         "calorie": 136,
+         "name": "Bacalhau, salgado, cru"
+      },
+      {
+         "code": "280",
+         "protein": 24,
+         "lipid": 3.6,
+         "carbo": 1.2,
+         "calorie": 140,
+         "name": "Bacalhau, salgado, refogado"
+      },
+      {
+         "code": "281",
+         "protein": 25,
+         "lipid": 10,
+         "carbo": 3.1,
+         "calorie": 208,
+         "name": "Cação, posta, com farinha de trigo, frita"
+      },
+      {
+         "code": "282",
+         "protein": 25.6,
+         "lipid": 0.7,
+         "carbo": 0,
+         "calorie": 116,
+         "name": "Cação, posta, cozida"
+      },
+      {
+         "code": "283",
+         "protein": 17.9,
+         "lipid": 0.8,
+         "carbo": 0,
+         "calorie": 83,
+         "name": "Cação, posta, crua"
+      },
+      {
+         "code": "284",
+         "protein": 19,
+         "lipid": 1,
+         "carbo": 0,
+         "calorie": 90,
+         "name": "Camarão, Rio Grande, grande, cozido"
+      },
+      {
+         "code": "285",
+         "protein": 10,
+         "lipid": 0.5,
+         "carbo": 0,
+         "calorie": 47,
+         "name": "Camarão, Rio Grande, grande, cru"
+      },
+      {
+         "code": "286",
+         "protein": 18.4,
+         "lipid": 15.6,
+         "carbo": 2.9,
+         "calorie": 231,
+         "name": "Camarão, Sete Barbas, sem cabeça, com casca, frito"
+      },
+      {
+         "code": "287",
+         "protein": 18.5,
+         "lipid": 0.4,
+         "carbo": 0,
+         "calorie": 83,
+         "name": "Caranguejo, cozido"
+      },
+      {
+         "code": "288",
+         "protein": 17.4,
+         "lipid": 6,
+         "carbo": 0,
+         "calorie": 128,
+         "name": "Corimba, cru"
+      },
+      {
+         "code": "289",
+         "protein": 19.9,
+         "lipid": 19.6,
+         "carbo": 0,
+         "calorie": 261,
+         "name": "Corimbatá, assado"
+      },
+      {
+         "code": "290",
+         "protein": 20.1,
+         "lipid": 16.9,
+         "carbo": 0,
+         "calorie": 239,
+         "name": "Corimbatá, cozido"
+      },
+      {
+         "code": "291",
+         "protein": 18.9,
+         "lipid": 2.2,
+         "carbo": 0,
+         "calorie": 101,
+         "name": "Corvina de água doce, crua"
+      },
+      {
+         "code": "292",
+         "protein": 18.6,
+         "lipid": 1.6,
+         "carbo": 0,
+         "calorie": 94,
+         "name": "Corvina do mar, crua"
+      },
+      {
+         "code": "293",
+         "protein": 26.8,
+         "lipid": 3.6,
+         "carbo": 0,
+         "calorie": 147,
+         "name": "Corvina grande, assada"
+      },
+      {
+         "code": "294",
+         "protein": 23.4,
+         "lipid": 2.6,
+         "carbo": 0,
+         "calorie": 100,
+         "name": "Corvina grande, cozida"
+      },
+      {
+         "code": "295",
+         "protein": 18.8,
+         "lipid": 5.6,
+         "carbo": 0,
+         "calorie": 131,
+         "name": "Dourada de água doce, fresca"
+      },
+      {
+         "code": "296",
+         "protein": 16.8,
+         "lipid": 6.5,
+         "carbo": 0,
+         "calorie": 131,
+         "name": "Lambari, congelado, cru"
+      },
+      {
+         "code": "297",
+         "protein": 28.4,
+         "lipid": 22.8,
+         "carbo": 0,
+         "calorie": 327,
+         "name": "Lambari, congelado, frito"
+      },
+      {
+         "code": "298",
+         "protein": 15.7,
+         "lipid": 9.4,
+         "carbo": 0,
+         "calorie": 152,
+         "name": "Lambari, fresco, cru"
+      },
+      {
+         "code": "299",
+         "protein": 23.5,
+         "lipid": 22.6,
+         "carbo": 10.2,
+         "calorie": 344,
+         "name": "Manjuba, com farinha de trigo, frita"
+      },
+      {
+         "code": "300",
+         "protein": 30.1,
+         "lipid": 24.5,
+         "carbo": 0,
+         "calorie": 349,
+         "name": "Manjuba, frita"
+      },
+      {
+         "code": "301",
+         "protein": 26.6,
+         "lipid": 0.9,
+         "carbo": 0,
+         "calorie": 122,
+         "name": "Merluza, filé, assado"
+      },
+      {
+         "code": "302",
+         "protein": 16.6,
+         "lipid": 2,
+         "carbo": 0,
+         "calorie": 89,
+         "name": "Merluza, filé, cru"
+      },
+      {
+         "code": "303",
+         "protein": 26.9,
+         "lipid": 8.5,
+         "carbo": 0,
+         "calorie": 192,
+         "name": "Merluza, filé, frito"
+      },
+      {
+         "code": "304",
+         "protein": 16.3,
+         "lipid": 4.6,
+         "carbo": 0,
+         "calorie": 111,
+         "name": "Pescada, branca, crua"
+      },
+      {
+         "code": "305",
+         "protein": 27.4,
+         "lipid": 11.8,
+         "carbo": 0,
+         "calorie": 223,
+         "name": "Pescada, branca, frita"
+      },
+      {
+         "code": "306",
+         "protein": 21.4,
+         "lipid": 19.1,
+         "carbo": 5,
+         "calorie": 283,
+         "name": "Pescada, filé, com farinha de trigo, frito"
+      },
+      {
+         "code": "307",
+         "protein": 16.7,
+         "lipid": 4,
+         "carbo": 0,
+         "calorie": 107,
+         "name": "Pescada, filé, cru"
+      },
+      {
+         "code": "308",
+         "protein": 28.6,
+         "lipid": 3.6,
+         "carbo": 0,
+         "calorie": 154,
+         "name": "Pescada, filé, frito"
+      },
+      {
+         "code": "309",
+         "protein": 11.8,
+         "lipid": 8,
+         "carbo": 5,
+         "calorie": 142,
+         "name": "Pescada, filé, molho escabeche"
+      },
+      {
+         "code": "310",
+         "protein": 15.5,
+         "lipid": 1.1,
+         "carbo": 0,
+         "calorie": 76,
+         "name": "Pescadinha, crua"
+      },
+      {
+         "code": "311",
+         "protein": 36.5,
+         "lipid": 4,
+         "carbo": 0,
+         "calorie": 192,
+         "name": "Pintado, assado"
+      },
+      {
+         "code": "312",
+         "protein": 18.6,
+         "lipid": 1.3,
+         "carbo": 0,
+         "calorie": 91,
+         "name": "Pintado, cru"
+      },
+      {
+         "code": "313",
+         "protein": 30.8,
+         "lipid": 2.3,
+         "carbo": 0,
+         "calorie": 152,
+         "name": "Pintado, grelhado"
+      },
+      {
+         "code": "314",
+         "protein": 20.5,
+         "lipid": 0.6,
+         "carbo": 0,
+         "calorie": 93,
+         "name": "Porquinho, cru"
+      },
+      {
+         "code": "315",
+         "protein": 23.9,
+         "lipid": 14,
+         "carbo": 0,
+         "calorie": 229,
+         "name": "Salmão, filé, com pele, fresco, grelhado"
+      },
+      {
+         "code": "316",
+         "protein": 19.3,
+         "lipid": 9.7,
+         "carbo": 0,
+         "calorie": 170,
+         "name": "Salmão, sem pele, fresco, cru"
+      },
+      {
+         "code": "317",
+         "protein": 26.1,
+         "lipid": 14.5,
+         "carbo": 0,
+         "calorie": 243,
+         "name": "Salmão, sem pele, fresco, grelhado"
+      },
+      {
+         "code": "318",
+         "protein": 32.2,
+         "lipid": 3,
+         "carbo": 0,
+         "calorie": 164,
+         "name": "Sardinha, assada"
+      },
+      {
+         "code": "319",
+         "protein": 15.9,
+         "lipid": 24,
+         "carbo": 0,
+         "calorie": 285,
+         "name": "Sardinha, conserva em óleo"
+      },
+      {
+         "code": "320",
+         "protein": 33.4,
+         "lipid": 12.7,
+         "carbo": 0,
+         "calorie": 257,
+         "name": "Sardinha, frita"
+      },
+      {
+         "code": "321",
+         "protein": 21.1,
+         "lipid": 2.7,
+         "carbo": 0,
+         "calorie": 114,
+         "name": "Sardinha, inteira, crua"
+      },
+      {
+         "code": "322",
+         "protein": 18,
+         "lipid": 1.2,
+         "carbo": 0,
+         "calorie": 88,
+         "name": "Tucunaré, filé, congelado, cru"
+      },
+      {
+         "code": "323",
+         "protein": 13.5,
+         "lipid": 6.7,
+         "carbo": 2.9,
+         "calorie": 129,
+         "name": "Apresuntado"
+      },
+      {
+         "code": "324",
+         "protein": 7.8,
+         "lipid": 16.6,
+         "carbo": 15.1,
+         "calorie": 241,
+         "name": "Caldo de carne, tablete"
+      },
+      {
+         "code": "325",
+         "protein": 6.3,
+         "lipid": 20.4,
+         "carbo": 10.6,
+         "calorie": 251,
+         "name": "Caldo de galinha, tablete"
+      },
+      {
+         "code": "326",
+         "protein": 26.7,
+         "lipid": 10.9,
+         "carbo": 0,
+         "calorie": 212,
+         "name": "Carne, bovina, acém, moído, cozido"
+      },
+      {
+         "code": "327",
+         "protein": 19.4,
+         "lipid": 5.9,
+         "carbo": 0,
+         "calorie": 137,
+         "name": "Carne, bovina, acém, moído, cru"
+      },
+      {
+         "code": "328",
+         "protein": 27.3,
+         "lipid": 10.9,
+         "carbo": 0,
+         "calorie": 215,
+         "name": "Carne, bovina, acém, sem gordura, cozido"
+      },
+      {
+         "code": "329",
+         "protein": 20.8,
+         "lipid": 6.1,
+         "carbo": 0,
+         "calorie": 144,
+         "name": "Carne, bovina, acém, sem gordura, cru"
+      },
+      {
+         "code": "330",
+         "protein": 12.3,
+         "lipid": 11.2,
+         "carbo": 9.8,
+         "calorie": 189,
+         "name": "Carne, bovina, almôndegas, cruas"
+      },
+      {
+         "code": "331",
+         "protein": 18.2,
+         "lipid": 15.8,
+         "carbo": 14.3,
+         "calorie": 272,
+         "name": "Carne, bovina, almôndegas, fritas"
+      },
+      {
+         "code": "332",
+         "protein": 21.6,
+         "lipid": 4.5,
+         "carbo": 0,
+         "calorie": 133,
+         "name": "Carne, bovina, bucho, cozido"
+      },
+      {
+         "code": "333",
+         "protein": 20.5,
+         "lipid": 5.5,
+         "carbo": 0,
+         "calorie": 137,
+         "name": "Carne, bovina, bucho, cru"
+      },
+      {
+         "code": "334",
+         "protein": 19.2,
+         "lipid": 15,
+         "carbo": 0,
+         "calorie": 217,
+         "name": "Carne, bovina, capa de contra-filé, com gordura, crua"
+      },
+      {
+         "code": "335",
+         "protein": 30.7,
+         "lipid": 20,
+         "carbo": 0,
+         "calorie": 312,
+         "name": "Carne, bovina, capa de contra-filé, com gordura, grelhada"
+      },
+      {
+         "code": "336",
+         "protein": 21.5,
+         "lipid": 4.3,
+         "carbo": 0,
+         "calorie": 131,
+         "name": "Carne, bovina, capa de contra-filé, sem gordura, crua"
+      },
+      {
+         "code": "337",
+         "protein": 35.1,
+         "lipid": 10,
+         "carbo": 0,
+         "calorie": 239,
+         "name": "Carne, bovina, capa de contra-filé, sem gordura, grelhada"
+      },
+      {
+         "code": "338",
+         "protein": 36.4,
+         "lipid": 11.9,
+         "carbo": 0,
+         "calorie": 263,
+         "name": "Carne, bovina, charque, cozido"
+      },
+      {
+         "code": "339",
+         "protein": 22.7,
+         "lipid": 16.8,
+         "carbo": 0,
+         "calorie": 249,
+         "name": "Carne, bovina, charque, cru"
+      },
+      {
+         "code": "340",
+         "protein": 20.6,
+         "lipid": 24,
+         "carbo": 12.2,
+         "calorie": 352,
+         "name": "Carne, bovina, contra-filé, à milanesa"
+      },
+      {
+         "code": "341",
+         "protein": 19.8,
+         "lipid": 13.1,
+         "carbo": 0,
+         "calorie": 202,
+         "name": "Carne, bovina, contra-filé de costela, cru"
+      },
+      {
+         "code": "342",
+         "protein": 29.9,
+         "lipid": 16.3,
+         "carbo": 0,
+         "calorie": 275,
+         "name": "Carne, bovina, contra-filé de costela, grelhado"
+      },
+      {
+         "code": "343",
+         "protein": 21.2,
+         "lipid": 12.8,
+         "carbo": 0,
+         "calorie": 206,
+         "name": "Carne, bovina, contra-filé, com gordura, cru"
+      },
+      {
+         "code": "344",
+         "protein": 32.4,
+         "lipid": 15.5,
+         "carbo": 0,
+         "calorie": 278,
+         "name": "Carne, bovina, contra-filé, com gordura, grelhado"
+      },
+      {
+         "code": "345",
+         "protein": 24,
+         "lipid": 6,
+         "carbo": 0,
+         "calorie": 157,
+         "name": "Carne, bovina, contra-filé, sem gordura, cru"
+      },
+      {
+         "code": "346",
+         "protein": 35.9,
+         "lipid": 4.5,
+         "carbo": 0,
+         "calorie": 194,
+         "name": "Carne, bovina, contra-filé, sem gordura, grelhado"
+      },
+      {
+         "code": "347",
+         "protein": 28.8,
+         "lipid": 27.7,
+         "carbo": 0,
+         "calorie": 373,
+         "name": "Carne, bovina, costela, assada"
+      },
+      {
+         "code": "348",
+         "protein": 16.7,
+         "lipid": 31.8,
+         "carbo": 0,
+         "calorie": 358,
+         "name": "Carne, bovina, costela, crua"
+      },
+      {
+         "code": "349",
+         "protein": 31.9,
+         "lipid": 8.9,
+         "carbo": 0,
+         "calorie": 217,
+         "name": "Carne, bovina, coxão duro, sem gordura, cozido"
+      },
+      {
+         "code": "350",
+         "protein": 21.5,
+         "lipid": 6.2,
+         "carbo": 0,
+         "calorie": 148,
+         "name": "Carne, bovina, coxão duro, sem gordura, cru"
+      },
+      {
+         "code": "351",
+         "protein": 32.4,
+         "lipid": 8.9,
+         "carbo": 0,
+         "calorie": 219,
+         "name": "Carne, bovina, coxão mole, sem gordura, cozido"
+      },
+      {
+         "code": "352",
+         "protein": 21.2,
+         "lipid": 8.7,
+         "carbo": 0,
+         "calorie": 169,
+         "name": "Carne, bovina, coxão mole, sem gordura, cru"
+      },
+      {
+         "code": "353",
+         "protein": 28.6,
+         "lipid": 23,
+         "carbo": 0,
+         "calorie": 330,
+         "name": "Carne, bovina, cupim, assado"
+      },
+      {
+         "code": "354",
+         "protein": 19.5,
+         "lipid": 15.3,
+         "carbo": 0,
+         "calorie": 221,
+         "name": "Carne, bovina, cupim, cru"
+      },
+      {
+         "code": "355",
+         "protein": 20.7,
+         "lipid": 5.4,
+         "carbo": 1.1,
+         "calorie": 141,
+         "name": "Carne, bovina, fígado, cru"
+      },
+      {
+         "code": "356",
+         "protein": 29.9,
+         "lipid": 9,
+         "carbo": 4.2,
+         "calorie": 225,
+         "name": "Carne, bovina, fígado, grelhado"
+      },
+      {
+         "code": "357",
+         "protein": 21.6,
+         "lipid": 5.6,
+         "carbo": 0,
+         "calorie": 143,
+         "name": "Carne, bovina, filé mingnon, sem gordura, cru"
+      },
+      {
+         "code": "358",
+         "protein": 32.8,
+         "lipid": 8.8,
+         "carbo": 0,
+         "calorie": 220,
+         "name": "Carne, bovina, filé mingnon, sem gordura, grelhado"
+      },
+      {
+         "code": "359",
+         "protein": 29.4,
+         "lipid": 7.8,
+         "carbo": 0,
+         "calorie": 196,
+         "name": "Carne, bovina, flanco, sem gordura, cozido"
+      },
+      {
+         "code": "360",
+         "protein": 20,
+         "lipid": 6.2,
+         "carbo": 0,
+         "calorie": 141,
+         "name": "Carne, bovina, flanco, sem gordura, cru"
+      },
+      {
+         "code": "361",
+         "protein": 24.2,
+         "lipid": 26,
+         "carbo": 0,
+         "calorie": 338,
+         "name": "Carne, bovina, fraldinha, com gordura, cozida"
+      },
+      {
+         "code": "362",
+         "protein": 17.6,
+         "lipid": 16.1,
+         "carbo": 0,
+         "calorie": 221,
+         "name": "Carne, bovina, fraldinha, com gordura, crua"
+      },
+      {
+         "code": "363",
+         "protein": 32.9,
+         "lipid": 9.1,
+         "carbo": 0,
+         "calorie": 222,
+         "name": "Carne, bovina, lagarto, cozido"
+      },
+      {
+         "code": "364",
+         "protein": 20.5,
+         "lipid": 5.2,
+         "carbo": 0,
+         "calorie": 135,
+         "name": "Carne, bovina, lagarto, cru"
+      },
+      {
+         "code": "365",
+         "protein": 21.4,
+         "lipid": 24.8,
+         "carbo": 0,
+         "calorie": 315,
+         "name": "Carne, bovina, língua, cozida"
+      },
+      {
+         "code": "366",
+         "protein": 17.1,
+         "lipid": 15.8,
+         "carbo": 0,
+         "calorie": 215,
+         "name": "Carne, bovina, língua, crua"
+      },
+      {
+         "code": "367",
+         "protein": 20.9,
+         "lipid": 7,
+         "carbo": 0,
+         "calorie": 153,
+         "name": "Carne, bovina, maminha, crua"
+      },
+      {
+         "code": "368",
+         "protein": 30.7,
+         "lipid": 2.4,
+         "carbo": 0,
+         "calorie": 153,
+         "name": "Carne, bovina, maminha, grelhada"
+      },
+      {
+         "code": "369",
+         "protein": 21.6,
+         "lipid": 7.8,
+         "carbo": 0,
+         "calorie": 163,
+         "name": "Carne, bovina, miolo de alcatra, sem gordura, cru"
+      },
+      {
+         "code": "370",
+         "protein": 31.9,
+         "lipid": 11.6,
+         "carbo": 0,
+         "calorie": 241,
+         "name": "Carne, bovina, miolo de alcatra, sem gordura, grelhado"
+      },
+      {
+         "code": "371",
+         "protein": 31.2,
+         "lipid": 6.7,
+         "carbo": 0,
+         "calorie": 194,
+         "name": "Carne, bovina, músculo, sem gordura, cozido"
+      },
+      {
+         "code": "372",
+         "protein": 21.6,
+         "lipid": 5.5,
+         "carbo": 0,
+         "calorie": 142,
+         "name": "Carne, bovina, músculo, sem gordura, cru"
+      },
+      {
+         "code": "373",
+         "protein": 21.4,
+         "lipid": 7.5,
+         "carbo": 0,
+         "calorie": 159,
+         "name": "Carne, bovina, paleta, com gordura, crua"
+      },
+      {
+         "code": "374",
+         "protein": 29.7,
+         "lipid": 7.4,
+         "carbo": 0,
+         "calorie": 194,
+         "name": "Carne, bovina, paleta, sem gordura, cozida"
+      },
+      {
+         "code": "375",
+         "protein": 21,
+         "lipid": 5.7,
+         "carbo": 0,
+         "calorie": 141,
+         "name": "Carne, bovina, paleta, sem gordura, crua"
+      },
+      {
+         "code": "376",
+         "protein": 21.7,
+         "lipid": 4.5,
+         "carbo": 0,
+         "calorie": 133,
+         "name": "Carne, bovina, patinho, sem gordura, cru"
+      },
+      {
+         "code": "377",
+         "protein": 35.9,
+         "lipid": 7.3,
+         "carbo": 0,
+         "calorie": 219,
+         "name": "Carne, bovina, patinho, sem gordura, grelhado"
+      },
+      {
+         "code": "378",
+         "protein": 22.2,
+         "lipid": 27,
+         "carbo": 0,
+         "calorie": 338,
+         "name": "Carne, bovina, peito, sem gordura, cozido"
+      },
+      {
+         "code": "379",
+         "protein": 17.6,
+         "lipid": 20.4,
+         "carbo": 0,
+         "calorie": 259,
+         "name": "Carne, bovina, peito, sem gordura, cru"
+      },
+      {
+         "code": "380",
+         "protein": 18.8,
+         "lipid": 14.7,
+         "carbo": 0,
+         "calorie": 213,
+         "name": "Carne, bovina, picanha, com gordura, crua"
+      },
+      {
+         "code": "381",
+         "protein": 26.4,
+         "lipid": 19.5,
+         "carbo": 0,
+         "calorie": 289,
+         "name": "Carne, bovina, picanha, com gordura, grelhada"
+      },
+      {
+         "code": "382",
+         "protein": 21.3,
+         "lipid": 4.7,
+         "carbo": 0,
+         "calorie": 134,
+         "name": "Carne, bovina, picanha, sem gordura, crua"
+      },
+      {
+         "code": "383",
+         "protein": 31.9,
+         "lipid": 11.3,
+         "carbo": 0,
+         "calorie": 238,
+         "name": "Carne, bovina, picanha, sem gordura, grelhada"
+      },
+      {
+         "code": "384",
+         "protein": 26.9,
+         "lipid": 21.9,
+         "carbo": 0,
+         "calorie": 313,
+         "name": "Carne, bovina, seca, cozida"
+      },
+      {
+         "code": "385",
+         "protein": 19.7,
+         "lipid": 25.4,
+         "carbo": 0,
+         "calorie": 313,
+         "name": "Carne, bovina, seca, crua"
+      },
+      {
+         "code": "386",
+         "protein": 9.6,
+         "lipid": 11.8,
+         "carbo": 34.5,
+         "calorie": 283,
+         "name": "Coxinha de frango, frita"
+      },
+      {
+         "code": "387",
+         "protein": 12,
+         "lipid": 15.6,
+         "carbo": 13.9,
+         "calorie": 246,
+         "name": "Croquete, de carne, cru"
+      },
+      {
+         "code": "388",
+         "protein": 16.9,
+         "lipid": 22.7,
+         "carbo": 18.1,
+         "calorie": 347,
+         "name": "Croquete, de carne, frito"
+      },
+      {
+         "code": "389",
+         "protein": 6.9,
+         "lipid": 15.6,
+         "carbo": 47.5,
+         "calorie": 358,
+         "name": "Empada de frango, pré-cozida, assada"
+      },
+      {
+         "code": "390",
+         "protein": 7.3,
+         "lipid": 22.9,
+         "carbo": 35.5,
+         "calorie": 377,
+         "name": "Empada, de frango, pré-cozida"
+      },
+      {
+         "code": "391",
+         "protein": 18.1,
+         "lipid": 15.1,
+         "carbo": 0,
+         "calorie": 213,
+         "name": "Frango, asa, com pele, crua"
+      },
+      {
+         "code": "392",
+         "protein": 23.9,
+         "lipid": 15.6,
+         "carbo": 0,
+         "calorie": 243,
+         "name": "Frango, caipira, inteiro, com pele, cozido"
+      },
+      {
+         "code": "393",
+         "protein": 29.6,
+         "lipid": 7.7,
+         "carbo": 0,
+         "calorie": 196,
+         "name": "Frango, caipira, inteiro, sem pele, cozido"
+      },
+      {
+         "code": "394",
+         "protein": 12.6,
+         "lipid": 18.6,
+         "carbo": 0,
+         "calorie": 222,
+         "name": "Frango, coração, cru"
+      },
+      {
+         "code": "395",
+         "protein": 22.4,
+         "lipid": 12.1,
+         "carbo": 0.6,
+         "calorie": 207,
+         "name": "Frango, coração, grelhado"
+      },
+      {
+         "code": "396",
+         "protein": 28.5,
+         "lipid": 10.4,
+         "carbo": 0.1,
+         "calorie": 215,
+         "name": "Frango, coxa, com pele, assada"
+      },
+      {
+         "code": "397",
+         "protein": 17.1,
+         "lipid": 9.8,
+         "carbo": 0,
+         "calorie": 161,
+         "name": "Frango, coxa, com pele, crua"
+      },
+      {
+         "code": "398",
+         "protein": 26.9,
+         "lipid": 5.8,
+         "carbo": 0,
+         "calorie": 167,
+         "name": "Frango, coxa, sem pele, cozida"
+      },
+      {
+         "code": "399",
+         "protein": 17.8,
+         "lipid": 4.9,
+         "carbo": 0,
+         "calorie": 120,
+         "name": "Frango, coxa, sem pele, crua"
+      },
+      {
+         "code": "400",
+         "protein": 17.6,
+         "lipid": 3.5,
+         "carbo": 0,
+         "calorie": 106,
+         "name": "Frango, fígado, cru"
+      },
+      {
+         "code": "401",
+         "protein": 28.5,
+         "lipid": 7.8,
+         "carbo": 7.5,
+         "calorie": 221,
+         "name": "Frango, filé, à milanesa"
+      },
+      {
+         "code": "402",
+         "protein": 16.4,
+         "lipid": 17.3,
+         "carbo": 0,
+         "calorie": 226,
+         "name": "Frango, inteiro, com pele, cru"
+      },
+      {
+         "code": "403",
+         "protein": 28,
+         "lipid": 7.5,
+         "carbo": 0,
+         "calorie": 187,
+         "name": "Frango, inteiro, sem pele, assado"
+      },
+      {
+         "code": "404",
+         "protein": 25,
+         "lipid": 7.1,
+         "carbo": 0,
+         "calorie": 170,
+         "name": "Frango, inteiro, sem pele, cozido"
+      },
+      {
+         "code": "405",
+         "protein": 20.6,
+         "lipid": 4.6,
+         "carbo": 0,
+         "calorie": 129,
+         "name": "Frango, inteiro, sem pele, cru"
+      },
+      {
+         "code": "406",
+         "protein": 33.4,
+         "lipid": 7.6,
+         "carbo": 0,
+         "calorie": 212,
+         "name": "Frango, peito, com pele, assado"
+      },
+      {
+         "code": "407",
+         "protein": 20.8,
+         "lipid": 6.7,
+         "carbo": 0,
+         "calorie": 149,
+         "name": "Frango, peito, com pele, cru"
+      },
+      {
+         "code": "408",
+         "protein": 31.5,
+         "lipid": 3.2,
+         "carbo": 0,
+         "calorie": 163,
+         "name": "Frango, peito, sem pele, cozido"
+      },
+      {
+         "code": "409",
+         "protein": 21.5,
+         "lipid": 3,
+         "carbo": 0,
+         "calorie": 119,
+         "name": "Frango, peito, sem pele, cru"
+      },
+      {
+         "code": "410",
+         "protein": 32,
+         "lipid": 2.5,
+         "carbo": 0,
+         "calorie": 159,
+         "name": "Frango, peito, sem pele, grelhado"
+      },
+      {
+         "code": "411",
+         "protein": 28.7,
+         "lipid": 15.2,
+         "carbo": 0,
+         "calorie": 260,
+         "name": "Frango, sobrecoxa, com pele, assada"
+      },
+      {
+         "code": "412",
+         "protein": 15.5,
+         "lipid": 20.9,
+         "carbo": 0,
+         "calorie": 255,
+         "name": "Frango, sobrecoxa, com pele, crua"
+      },
+      {
+         "code": "413",
+         "protein": 29.2,
+         "lipid": 12,
+         "carbo": 0,
+         "calorie": 233,
+         "name": "Frango, sobrecoxa, sem pele, assada"
+      },
+      {
+         "code": "414",
+         "protein": 17.6,
+         "lipid": 9.6,
+         "carbo": 0,
+         "calorie": 162,
+         "name": "Frango, sobrecoxa, sem pele, crua"
+      },
+      {
+         "code": "415",
+         "protein": 13.2,
+         "lipid": 16.2,
+         "carbo": 4.2,
+         "calorie": 215,
+         "name": "Hambúrguer, bovino, cru"
+      },
+      {
+         "code": "416",
+         "protein": 20,
+         "lipid": 17,
+         "carbo": 6.3,
+         "calorie": 258,
+         "name": "Hambúrguer, bovino, frito"
+      },
+      {
+         "code": "417",
+         "protein": 13.2,
+         "lipid": 12.4,
+         "carbo": 11.3,
+         "calorie": 210,
+         "name": "Hambúrguer, bovino, grelhado"
+      },
+      {
+         "code": "418",
+         "protein": 14.2,
+         "lipid": 17.4,
+         "carbo": 0,
+         "calorie": 218,
+         "name": "Lingüiça, frango, crua"
+      },
+      {
+         "code": "419",
+         "protein": 18.3,
+         "lipid": 18.5,
+         "carbo": 0,
+         "calorie": 245,
+         "name": "Lingüiça, frango, frita"
+      },
+      {
+         "code": "420",
+         "protein": 18.2,
+         "lipid": 18.4,
+         "carbo": 0,
+         "calorie": 244,
+         "name": "Lingüiça, frango, grelhada"
+      },
+      {
+         "code": "421",
+         "protein": 16.1,
+         "lipid": 17.6,
+         "carbo": 0,
+         "calorie": 227,
+         "name": "Lingüiça, porco, crua"
+      },
+      {
+         "code": "422",
+         "protein": 20.5,
+         "lipid": 21.3,
+         "carbo": 0,
+         "calorie": 280,
+         "name": "Lingüiça, porco, frita"
+      },
+      {
+         "code": "423",
+         "protein": 23.2,
+         "lipid": 21.9,
+         "carbo": 0,
+         "calorie": 296,
+         "name": "Lingüiça, porco, grelhada"
+      },
+      {
+         "code": "424",
+         "protein": 12,
+         "lipid": 21.6,
+         "carbo": 5.8,
+         "calorie": 269,
+         "name": "Mortadela"
+      },
+      {
+         "code": "425",
+         "protein": 26.2,
+         "lipid": 5.7,
+         "carbo": 0,
+         "calorie": 163,
+         "name": "Peru, congelado, assado"
+      },
+      {
+         "code": "426",
+         "protein": 18.1,
+         "lipid": 1.8,
+         "carbo": 0,
+         "calorie": 94,
+         "name": "Peru, congelado, cru"
+      },
+      {
+         "code": "427",
+         "protein": 21.5,
+         "lipid": 8,
+         "carbo": 0,
+         "calorie": 164,
+         "name": "Porco, bisteca, crua"
+      },
+      {
+         "code": "428",
+         "protein": 33.7,
+         "lipid": 18.5,
+         "carbo": 0,
+         "calorie": 311,
+         "name": "Porco, bisteca, frita"
+      },
+      {
+         "code": "429",
+         "protein": 28.9,
+         "lipid": 17.4,
+         "carbo": 0,
+         "calorie": 280,
+         "name": "Porco, bisteca, grelhada"
+      },
+      {
+         "code": "430",
+         "protein": 30.2,
+         "lipid": 30.3,
+         "carbo": 0,
+         "calorie": 402,
+         "name": "Porco, costela, assada"
+      },
+      {
+         "code": "431",
+         "protein": 18,
+         "lipid": 19.8,
+         "carbo": 0,
+         "calorie": 256,
+         "name": "Porco, costela, crua"
+      },
+      {
+         "code": "432",
+         "protein": 35.7,
+         "lipid": 6.4,
+         "carbo": 0,
+         "calorie": 210,
+         "name": "Porco, lombo, assado"
+      },
+      {
+         "code": "433",
+         "protein": 22.6,
+         "lipid": 8.8,
+         "carbo": 0,
+         "calorie": 176,
+         "name": "Porco, lombo, cru"
+      },
+      {
+         "code": "434",
+         "protein": 18.5,
+         "lipid": 19.9,
+         "carbo": 0,
+         "calorie": 258,
+         "name": "Porco, orelha, salgada, crua"
+      },
+      {
+         "code": "435",
+         "protein": 32.1,
+         "lipid": 13.9,
+         "carbo": 0,
+         "calorie": 262,
+         "name": "Porco, pernil, assado"
+      },
+      {
+         "code": "436",
+         "protein": 20.1,
+         "lipid": 11.1,
+         "carbo": 0,
+         "calorie": 186,
+         "name": "Porco, pernil, cru"
+      },
+      {
+         "code": "437",
+         "protein": 15.6,
+         "lipid": 34.5,
+         "carbo": 0,
+         "calorie": 377,
+         "name": "Porco, rabo, salgado, cru"
+      },
+      {
+         "code": "438",
+         "protein": 14.4,
+         "lipid": 6.8,
+         "carbo": 1.4,
+         "calorie": 128,
+         "name": "Presunto, com capa de gordura"
+      },
+      {
+         "code": "439",
+         "protein": 14.3,
+         "lipid": 2.7,
+         "carbo": 2.1,
+         "calorie": 94,
+         "name": "Presunto, sem capa de gordura"
+      },
+      {
+         "code": "440",
+         "protein": 14.6,
+         "lipid": 2.7,
+         "carbo": 12.9,
+         "calorie": 136,
+         "name": "Quibe, assado"
+      },
+      {
+         "code": "441",
+         "protein": 12.4,
+         "lipid": 1.7,
+         "carbo": 10.8,
+         "calorie": 109,
+         "name": "Quibe, cru"
+      },
+      {
+         "code": "442",
+         "protein": 14.9,
+         "lipid": 15.8,
+         "carbo": 12.3,
+         "calorie": 254,
+         "name": "Quibe, frito"
+      },
+      {
+         "code": "443",
+         "protein": 25.8,
+         "lipid": 30.6,
+         "carbo": 2.9,
+         "calorie": 398,
+         "name": "Salame"
+      },
+      {
+         "code": "444",
+         "protein": 11.5,
+         "lipid": 60.3,
+         "carbo": 0,
+         "calorie": 593,
+         "name": "Toucinho, cru"
+      },
+      {
+         "code": "445",
+         "protein": 27.3,
+         "lipid": 64.3,
+         "carbo": 0,
+         "calorie": 697,
+         "name": "Toucinho, frito"
+      },
+      {
+         "code": "446",
+         "protein": 2.1,
+         "lipid": 1.9,
+         "carbo": 7.6,
+         "calorie": 55,
+         "name": "Bebida láctea, pêssego"
+      },
+      {
+         "code": "447",
+         "protein": 1.5,
+         "lipid": 22.5,
+         "carbo": 4.5,
+         "calorie": 221,
+         "name": "Creme de Leite"
+      },
+      {
+         "code": "448",
+         "protein": 4.1,
+         "lipid": 3,
+         "carbo": 1.9,
+         "calorie": 51,
+         "name": "Iogurte, natural"
+      },
+      {
+         "code": "449",
+         "protein": 3.8,
+         "lipid": 0.3,
+         "carbo": 5.8,
+         "calorie": 41,
+         "name": "Iogurte, natural, desnatado"
+      },
+      {
+         "code": "450",
+         "protein": 0,
+         "lipid": 0,
+         "carbo": 0,
+         "calorie": 0,
+         "name": "Iogurte, sabor abacaxi"
+      },
+      {
+         "code": "451",
+         "protein": 2.7,
+         "lipid": 2.3,
+         "carbo": 9.7,
+         "calorie": 70,
+         "name": "Iogurte, sabor morango"
+      },
+      {
+         "code": "452",
+         "protein": 2.5,
+         "lipid": 2.3,
+         "carbo": 9.4,
+         "calorie": 68,
+         "name": "Iogurte, sabor pêssego"
+      },
+      {
+         "code": "453",
+         "protein": 7.7,
+         "lipid": 6.7,
+         "carbo": 57,
+         "calorie": 313,
+         "name": "Leite, condensado"
+      },
+      {
+         "code": "454",
+         "protein": 3.1,
+         "lipid": 3.8,
+         "carbo": 5.2,
+         "calorie": 66,
+         "name": "Leite, de cabra"
+      },
+      {
+         "code": "455",
+         "protein": 2.1,
+         "lipid": 2.2,
+         "carbo": 14.2,
+         "calorie": 83,
+         "name": "Leite, de vaca, achocolatado"
+      },
+      {
+         "code": "456",
+         "protein": 34.7,
+         "lipid": 0.9,
+         "carbo": 53,
+         "calorie": 362,
+         "name": "Leite, de vaca, desnatado, pó"
+      },
+      {
+         "code": "457",
+         "protein": 0,
+         "lipid": 0,
+         "carbo": 0,
+         "calorie": 0,
+         "name": "Leite, de vaca, desnatado, UHT"
+      },
+      {
+         "code": "458",
+         "protein": 0,
+         "lipid": 0,
+         "carbo": 0,
+         "calorie": 0,
+         "name": "Leite, de vaca, integral"
+      },
+      {
+         "code": "459",
+         "protein": 25.4,
+         "lipid": 26.9,
+         "carbo": 39.2,
+         "calorie": 497,
+         "name": "Leite, de vaca, integral, pó"
+      },
+      {
+         "code": "460",
+         "protein": 1.9,
+         "lipid": 0.1,
+         "carbo": 15.7,
+         "calorie": 70,
+         "name": "Leite, fermentado"
+      },
+      {
+         "code": "461",
+         "protein": 17.4,
+         "lipid": 20.2,
+         "carbo": 3.2,
+         "calorie": 264,
+         "name": "Queijo, minas, frescal"
+      },
+      {
+         "code": "462",
+         "protein": 21.2,
+         "lipid": 24.6,
+         "carbo": 3.6,
+         "calorie": 321,
+         "name": "Queijo, minas, meia cura"
+      },
+      {
+         "code": "463",
+         "protein": 22.6,
+         "lipid": 25.2,
+         "carbo": 3,
+         "calorie": 330,
+         "name": "Queijo, mozarela"
+      },
+      {
+         "code": "464",
+         "protein": 35.6,
+         "lipid": 33.5,
+         "carbo": 1.7,
+         "calorie": 453,
+         "name": "Queijo, parmesão"
+      },
+      {
+         "code": "465",
+         "protein": 9.4,
+         "lipid": 27.4,
+         "carbo": 5.7,
+         "calorie": 303,
+         "name": "Queijo, pasteurizado"
+      },
+      {
+         "code": "466",
+         "protein": 5.8,
+         "lipid": 2.8,
+         "carbo": 18.5,
+         "calorie": 121,
+         "name": "Queijo, petit suisse, morango"
+      },
+      {
+         "code": "467",
+         "protein": 22.7,
+         "lipid": 29.1,
+         "carbo": 1.9,
+         "calorie": 360,
+         "name": "Queijo, prato"
+      },
+      {
+         "code": "468",
+         "protein": 9.6,
+         "lipid": 23.4,
+         "carbo": 2.4,
+         "calorie": 257,
+         "name": "Queijo, requeijão, cremoso"
+      },
+      {
+         "code": "469",
+         "protein": 12.6,
+         "lipid": 8.1,
+         "carbo": 3.8,
+         "calorie": 140,
+         "name": "Queijo, ricota"
+      },
+      {
+         "code": "470",
+         "protein": 0,
+         "lipid": 0,
+         "carbo": 6.4,
+         "calorie": 26,
+         "name": "Bebida isotônica, sabores variados"
+      },
+      {
+         "code": "471",
+         "protein": 0.7,
+         "lipid": 0.1,
+         "carbo": 1.5,
+         "calorie": 9,
+         "name": "Café, infusão 10%"
+      },
+      {
+         "code": "472",
+         "protein": 0,
+         "lipid": 0,
+         "carbo": 0,
+         "calorie": 216,
+         "name": "Cana, aguardente 1"
+      },
+      {
+         "code": "473",
+         "protein": 0,
+         "lipid": 0,
+         "carbo": 18.2,
+         "calorie": 65,
+         "name": "Cana, caldo de"
+      },
+      {
+         "code": "474",
+         "protein": 0.6,
+         "lipid": 0,
+         "carbo": 3.3,
+         "calorie": 41,
+         "name": "Cerveja, pilsen 2"
+      },
+      {
+         "code": "475",
+         "protein": 0,
+         "lipid": 0,
+         "carbo": 0.4,
+         "calorie": 1,
+         "name": "Chá, erva-doce, infusão 5%"
+      },
+      {
+         "code": "476",
+         "protein": 0,
+         "lipid": 0.1,
+         "carbo": 0.6,
+         "calorie": 3,
+         "name": "Chá, mate, infusão 5%"
+      },
+      {
+         "code": "477",
+         "protein": 0,
+         "lipid": 0,
+         "carbo": 0.6,
+         "calorie": 2,
+         "name": "Chá, preto, infusão 5%"
+      },
+      {
+         "code": "478",
+         "protein": 0,
+         "lipid": 0,
+         "carbo": 5.3,
+         "calorie": 22,
+         "name": "Coco, água de"
+      },
+      {
+         "code": "479",
+         "protein": 0,
+         "lipid": 0,
+         "carbo": 8,
+         "calorie": 31,
+         "name": "Refrigerante, tipo água tônica"
+      },
+      {
+         "code": "480",
+         "protein": 0,
+         "lipid": 0,
+         "carbo": 8.7,
+         "calorie": 34,
+         "name": "Refrigerante, tipo cola"
+      },
+      {
+         "code": "481",
+         "protein": 0,
+         "lipid": 0,
+         "carbo": 10,
+         "calorie": 39,
+         "name": "Refrigerante, tipo guaraná"
+      },
+      {
+         "code": "482",
+         "protein": 0,
+         "lipid": 0,
+         "carbo": 11.8,
+         "calorie": 46,
+         "name": "Refrigerante, tipo laranja"
+      },
+      {
+         "code": "483",
+         "protein": 0,
+         "lipid": 0,
+         "carbo": 10.3,
+         "calorie": 40,
+         "name": "Refrigerante, tipo limão"
+      },
+      {
+         "code": "484",
+         "protein": 15.6,
+         "lipid": 22,
+         "carbo": 0.4,
+         "calorie": 268,
+         "name": "Omelete, de queijo"
+      },
+      {
+         "code": "485",
+         "protein": 13.7,
+         "lipid": 12.7,
+         "carbo": 0.8,
+         "calorie": 177,
+         "name": "Ovo, de codorna, inteiro, cru"
+      },
+      {
+         "code": "486",
+         "protein": 13.4,
+         "lipid": 0.1,
+         "carbo": 0,
+         "calorie": 59,
+         "name": "Ovo, de galinha, clara, cozida/10minutos"
+      },
+      {
+         "code": "487",
+         "protein": 15.9,
+         "lipid": 30.8,
+         "carbo": 1.6,
+         "calorie": 353,
+         "name": "Ovo, de galinha, gema, cozida/10minutos"
+      },
+      {
+         "code": "488",
+         "protein": 13.3,
+         "lipid": 9.5,
+         "carbo": 0.6,
+         "calorie": 146,
+         "name": "Ovo, de galinha, inteiro, cozido/10minutos"
+      },
+      {
+         "code": "489",
+         "protein": 13,
+         "lipid": 8.9,
+         "carbo": 1.6,
+         "calorie": 143,
+         "name": "Ovo, de galinha, inteiro, cru"
+      },
+      {
+         "code": "490",
+         "protein": 15.6,
+         "lipid": 18.6,
+         "carbo": 1.2,
+         "calorie": 240,
+         "name": "Ovo, de galinha, inteiro, frito"
+      },
+      {
+         "code": "491",
+         "protein": 4.2,
+         "lipid": 2.2,
+         "carbo": 91.2,
+         "calorie": 401,
+         "name": "Achocolatado, pó"
+      },
+      {
+         "code": "492",
+         "protein": 0.3,
+         "lipid": 0,
+         "carbo": 99.6,
+         "calorie": 387,
+         "name": "Açúcar, cristal"
+      },
+      {
+         "code": "493",
+         "protein": 0.8,
+         "lipid": 0.1,
+         "carbo": 94.5,
+         "calorie": 369,
+         "name": "Açúcar, mascavo"
+      },
+      {
+         "code": "494",
+         "protein": 0.3,
+         "lipid": 0,
+         "carbo": 99.5,
+         "calorie": 387,
+         "name": "Açúcar, refinado"
+      },
+      {
+         "code": "495",
+         "protein": 7.2,
+         "lipid": 30.3,
+         "carbo": 59.6,
+         "calorie": 540,
+         "name": "Chocolate, ao leite"
+      },
+      {
+         "code": "496",
+         "protein": 7.4,
+         "lipid": 34.2,
+         "carbo": 55.4,
+         "calorie": 559,
+         "name": "Chocolate, ao leite, com castanha do Pará"
+      },
+      {
+         "code": "497",
+         "protein": 6.9,
+         "lipid": 33.8,
+         "carbo": 56.3,
+         "calorie": 557,
+         "name": "Chocolate, ao leite, dietético"
+      },
+      {
+         "code": "498",
+         "protein": 4.9,
+         "lipid": 29.9,
+         "carbo": 62.4,
+         "calorie": 475,
+         "name": "Chocolate, meio amargo"
+      },
+      {
+         "code": "499",
+         "protein": 1.1,
+         "lipid": 13.6,
+         "carbo": 81.4,
+         "calorie": 449,
+         "name": "Cocada branca"
+      },
+      {
+         "code": "500",
+         "protein": 0.9,
+         "lipid": 0.2,
+         "carbo": 54.6,
+         "calorie": 199,
+         "name": "Doce, de abóbora, cremoso"
+      },
+      {
+         "code": "501",
+         "protein": 5.5,
+         "lipid": 6,
+         "carbo": 59.5,
+         "calorie": 306,
+         "name": "Doce, de leite, cremoso"
+      },
+      {
+         "code": "502",
+         "protein": 2.1,
+         "lipid": 0.1,
+         "carbo": 24.2,
+         "calorie": 106,
+         "name": "Geléia, mocotó, natural"
+      },
+      {
+         "code": "503",
+         "protein": 0,
+         "lipid": 0,
+         "carbo": 79.4,
+         "calorie": 292,
+         "name": "Glicose de milho"
+      },
+      {
+         "code": "504",
+         "protein": 3.8,
+         "lipid": 0.2,
+         "carbo": 73.6,
+         "calorie": 301,
+         "name": "Maria mole"
+      },
+      {
+         "code": "505",
+         "protein": 3.9,
+         "lipid": 0.1,
+         "carbo": 75.1,
+         "calorie": 307,
+         "name": "Maria mole, coco queimado"
+      },
+      {
+         "code": "506",
+         "protein": 0.4,
+         "lipid": 0.1,
+         "carbo": 70.8,
+         "calorie": 257,
+         "name": "Marmelada"
+      },
+      {
+         "code": "507",
+         "protein": 0,
+         "lipid": 0,
+         "carbo": 84,
+         "calorie": 309,
+         "name": "Mel, de abelha"
+      },
+      {
+         "code": "508",
+         "protein": 0,
+         "lipid": 0,
+         "carbo": 76.6,
+         "calorie": 297,
+         "name": "Melado"
+      },
+      {
+         "code": "509",
+         "protein": 4.7,
+         "lipid": 24.4,
+         "carbo": 46.3,
+         "calorie": 411,
+         "name": "Quindim"
+      },
+      {
+         "code": "510",
+         "protein": 1,
+         "lipid": 0.1,
+         "carbo": 90.8,
+         "calorie": 352,
+         "name": "Rapadura"
+      },
+      {
+         "code": "511",
+         "protein": 14.7,
+         "lipid": 11.9,
+         "carbo": 65.8,
+         "calorie": 419,
+         "name": "Café, pó, torrado"
+      },
+      {
+         "code": "512",
+         "protein": 11.3,
+         "lipid": 8.6,
+         "carbo": 73.6,
+         "calorie": 417,
+         "name": "Capuccino, pó"
+      },
+      {
+         "code": "513",
+         "protein": 0.5,
+         "lipid": 0.1,
+         "carbo": 43.9,
+         "calorie": 90,
+         "name": "Fermento em pó, químico"
+      },
+      {
+         "code": "514",
+         "protein": 17,
+         "lipid": 1.5,
+         "carbo": 7.7,
+         "calorie": 90,
+         "name": "Fermento, biológico, levedura, tablete"
+      },
+      {
+         "code": "515",
+         "protein": 8.9,
+         "lipid": 0,
+         "carbo": 89.2,
+         "calorie": 380,
+         "name": "Gelatina, sabores variados, pó"
+      },
+      {
+         "code": "516",
+         "protein": 0,
+         "lipid": 0,
+         "carbo": 0,
+         "calorie": 0,
+         "name": "Sal, dietético"
+      },
+      {
+         "code": "517",
+         "protein": 0,
+         "lipid": 0,
+         "carbo": 0,
+         "calorie": 0,
+         "name": "Sal, grosso"
+      },
+      {
+         "code": "518",
+         "protein": 3.3,
+         "lipid": 0.3,
+         "carbo": 11.6,
+         "calorie": 61,
+         "name": "Shoyu"
+      },
+      {
+         "code": "519",
+         "protein": 2.7,
+         "lipid": 0.3,
+         "carbo": 2.1,
+         "calorie": 21,
+         "name": "Tempero a base de sal"
+      },
+      {
+         "code": "520",
+         "protein": 1.2,
+         "lipid": 20.3,
+         "carbo": 5.5,
+         "calorie": 194,
+         "name": "Azeitona, preta, conserva"
+      },
+      {
+         "code": "521",
+         "protein": 0.9,
+         "lipid": 14.2,
+         "carbo": 4.1,
+         "calorie": 137,
+         "name": "Azeitona, verde, conserva"
+      },
+      {
+         "code": "522",
+         "protein": 0.5,
+         "lipid": 27.3,
+         "carbo": 16.9,
+         "calorie": 315,
+         "name": "Chantilly, spray, com gordura vegetal"
+      },
+      {
+         "code": "523",
+         "protein": 1,
+         "lipid": 18.4,
+         "carbo": 2.2,
+         "calorie": 166,
+         "name": "Leite, de coco"
+      },
+      {
+         "code": "524",
+         "protein": 0.6,
+         "lipid": 30.5,
+         "carbo": 7.9,
+         "calorie": 302,
+         "name": "Maionese, tradicional com ovos"
+      },
+      {
+         "code": "525",
+         "protein": 8.3,
+         "lipid": 19.9,
+         "carbo": 19.1,
+         "calorie": 289,
+         "name": "Acarajé"
+      },
+      {
+         "code": "526",
+         "protein": 10.8,
+         "lipid": 7.1,
+         "carbo": 11.6,
+         "calorie": 154,
+         "name": "Arroz carreteiro"
+      },
+      {
+         "code": "527",
+         "protein": 6.2,
+         "lipid": 3.2,
+         "carbo": 20.4,
+         "calorie": 136,
+         "name": "Baião de dois, arroz e feijão-de-corda"
+      },
+      {
+         "code": "528",
+         "protein": 18.3,
+         "lipid": 9.5,
+         "carbo": 0.2,
+         "calorie": 165,
+         "name": "Barreado"
+      },
+      {
+         "code": "529",
+         "protein": 23.7,
+         "lipid": 21.1,
+         "carbo": 0,
+         "calorie": 291,
+         "name": "Bife à cavalo, com contra filé"
+      },
+      {
+         "code": "530",
+         "protein": 8,
+         "lipid": 8.3,
+         "carbo": 41.7,
+         "calorie": 274,
+         "name": "Bolinho de arroz"
+      },
+      {
+         "code": "531",
+         "protein": 7.9,
+         "lipid": 6,
+         "carbo": 3.2,
+         "calorie": 101,
+         "name": "Camarão à baiana"
+      },
+      {
+         "code": "532",
+         "protein": 6.8,
+         "lipid": 1.1,
+         "carbo": 10.1,
+         "calorie": 78,
+         "name": "Charuto, de repolho"
+      },
+      {
+         "code": "533",
+         "protein": 2.2,
+         "lipid": 0.7,
+         "carbo": 25.3,
+         "calorie": 113,
+         "name": "Cuscuz, de milho, cozido com sal"
+      },
+      {
+         "code": "534",
+         "protein": 2.6,
+         "lipid": 4.6,
+         "carbo": 22.5,
+         "calorie": 142,
+         "name": "Cuscuz, paulista"
+      },
+      {
+         "code": "535",
+         "protein": 5.6,
+         "lipid": 3.6,
+         "carbo": 5.7,
+         "calorie": 80,
+         "name": "Cuxá, molho"
+      },
+      {
+         "code": "536",
+         "protein": 19.8,
+         "lipid": 4.4,
+         "carbo": 0,
+         "calorie": 125,
+         "name": "Dobradinha"
+      },
+      {
+         "code": "537",
+         "protein": 15,
+         "lipid": 10.8,
+         "carbo": 3,
+         "calorie": 173,
+         "name": "Estrogonofe de carne"
+      },
+      {
+         "code": "538",
+         "protein": 17.6,
+         "lipid": 8,
+         "carbo": 2.6,
+         "calorie": 157,
+         "name": "Estrogonofe de frango"
+      },
+      {
+         "code": "539",
+         "protein": 10.2,
+         "lipid": 6.8,
+         "carbo": 19.6,
+         "calorie": 152,
+         "name": "Feijão tropeiro mineiro"
+      },
+      {
+         "code": "540",
+         "protein": 8.7,
+         "lipid": 6.5,
+         "carbo": 11.6,
+         "calorie": 117,
+         "name": "Feijoada"
+      },
+      {
+         "code": "541",
+         "protein": 9.7,
+         "lipid": 6.2,
+         "carbo": 4.1,
+         "calorie": 113,
+         "name": "Frango, com açafrão"
+      },
+      {
+         "code": "542",
+         "protein": 4.9,
+         "lipid": 0.9,
+         "carbo": 22.5,
+         "calorie": 120,
+         "name": "Macarrão, molho bolognesa"
+      },
+      {
+         "code": "543",
+         "protein": 10,
+         "lipid": 8.7,
+         "carbo": 3.4,
+         "calorie": 134,
+         "name": "Maniçoba"
+      },
+      {
+         "code": "544",
+         "protein": 8.6,
+         "lipid": 2.7,
+         "carbo": 6.6,
+         "calorie": 86,
+         "name": "Quibebe"
+      },
+      {
+         "code": "545",
+         "protein": 1.1,
+         "lipid": 7,
+         "carbo": 8.9,
+         "calorie": 96,
+         "name": "Salada, de legumes, com maionese"
+      },
+      {
+         "code": "546",
+         "protein": 2,
+         "lipid": 0.3,
+         "carbo": 7.1,
+         "calorie": 35,
+         "name": "Salada, de legumes, cozida no vapor"
+      },
+      {
+         "code": "547",
+         "protein": 13.9,
+         "lipid": 7.8,
+         "carbo": 4.6,
+         "calorie": 148,
+         "name": "Salpicão, de frango"
+      },
+      {
+         "code": "548",
+         "protein": 18.5,
+         "lipid": 4.4,
+         "carbo": 1.1,
+         "calorie": 123,
+         "name": "Sarapatel"
+      },
+      {
+         "code": "549",
+         "protein": 2,
+         "lipid": 1.2,
+         "carbo": 10.6,
+         "calorie": 57,
+         "name": "Tabule"
+      },
+      {
+         "code": "550",
+         "protein": 7,
+         "lipid": 0.4,
+         "carbo": 3.4,
+         "calorie": 47,
+         "name": "Tacacá"
+      },
+      {
+         "code": "551",
+         "protein": 0.1,
+         "lipid": 10.9,
+         "carbo": 63.6,
+         "calorie": 348,
+         "name": "Tapioca, com manteiga"
+      },
+      {
+         "code": "552",
+         "protein": 2.1,
+         "lipid": 0.3,
+         "carbo": 4.7,
+         "calorie": 27,
+         "name": "Tucupi, com pimenta-de-cheiro"
+      },
+      {
+         "code": "553",
+         "protein": 5.1,
+         "lipid": 9.3,
+         "carbo": 10.1,
+         "calorie": 145,
+         "name": "Vaca atolada"
+      },
+      {
+         "code": "554",
+         "protein": 6,
+         "lipid": 23.2,
+         "carbo": 9.7,
+         "calorie": 255,
+         "name": "Vatapá"
+      },
+      {
+         "code": "555",
+         "protein": 10.2,
+         "lipid": 25.6,
+         "carbo": 14.1,
+         "calorie": 307,
+         "name": "Virado à paulista"
+      },
+      {
+         "code": "556",
+         "protein": 7.5,
+         "lipid": 2.6,
+         "carbo": 18.3,
+         "calorie": 113,
+         "name": "Yakisoba"
+      },
+      {
+         "code": "557",
+         "protein": 27.2,
+         "lipid": 43.9,
+         "carbo": 20.3,
+         "calorie": 544,
+         "name": "Amendoim, grão, cru"
+      },
+      {
+         "code": "558",
+         "protein": 22.5,
+         "lipid": 54,
+         "carbo": 18.7,
+         "calorie": 606,
+         "name": "Amendoim, torrado, salgado"
+      },
+      {
+         "code": "559",
+         "protein": 7.5,
+         "lipid": 0.5,
+         "carbo": 14.2,
+         "calorie": 88,
+         "name": "Ervilha, em vagem"
+      },
+      {
+         "code": "560",
+         "protein": 4.6,
+         "lipid": 0.4,
+         "carbo": 13.4,
+         "calorie": 74,
+         "name": "Ervilha, enlatada, drenada"
+      },
+      {
+         "code": "561",
+         "protein": 4.8,
+         "lipid": 0.5,
+         "carbo": 13.6,
+         "calorie": 76,
+         "name": "Feijão, carioca, cozido"
+      },
+      {
+         "code": "562",
+         "protein": 20,
+         "lipid": 1.3,
+         "carbo": 61.2,
+         "calorie": 329,
+         "name": "Feijão, carioca, cru"
+      },
+      {
+         "code": "563",
+         "protein": 5.1,
+         "lipid": 0.6,
+         "carbo": 13.5,
+         "calorie": 78,
+         "name": "Feijão, fradinho, cozido"
+      },
+      {
+         "code": "564",
+         "protein": 20.2,
+         "lipid": 2.4,
+         "carbo": 61.2,
+         "calorie": 339,
+         "name": "Feijão, fradinho, cru"
+      },
+      {
+         "code": "565",
+         "protein": 6.1,
+         "lipid": 0.5,
+         "carbo": 16.5,
+         "calorie": 93,
+         "name": "Feijão, jalo, cozido"
+      },
+      {
+         "code": "566",
+         "protein": 20.1,
+         "lipid": 0.9,
+         "carbo": 61.5,
+         "calorie": 328,
+         "name": "Feijão, jalo, cru"
+      },
+      {
+         "code": "567",
+         "protein": 4.5,
+         "lipid": 0.5,
+         "carbo": 14,
+         "calorie": 77,
+         "name": "Feijão, preto, cozido"
+      },
+      {
+         "code": "568",
+         "protein": 21.3,
+         "lipid": 1.2,
+         "carbo": 58.8,
+         "calorie": 324,
+         "name": "Feijão, preto, cru"
+      },
+      {
+         "code": "569",
+         "protein": 5.5,
+         "lipid": 0.4,
+         "carbo": 15.3,
+         "calorie": 85,
+         "name": "Feijão, rajado, cozido"
+      },
+      {
+         "code": "570",
+         "protein": 17.3,
+         "lipid": 1.2,
+         "carbo": 62.9,
+         "calorie": 326,
+         "name": "Feijão, rajado, cru"
+      },
+      {
+         "code": "571",
+         "protein": 4.5,
+         "lipid": 0.5,
+         "carbo": 11.8,
+         "calorie": 68,
+         "name": "Feijão, rosinha, cozido"
+      },
+      {
+         "code": "572",
+         "protein": 20.9,
+         "lipid": 1.3,
+         "carbo": 62.2,
+         "calorie": 337,
+         "name": "Feijão, rosinha, cru"
+      },
+      {
+         "code": "573",
+         "protein": 5.7,
+         "lipid": 0.5,
+         "carbo": 12.9,
+         "calorie": 77,
+         "name": "Feijão, roxo, cozido"
+      },
+      {
+         "code": "574",
+         "protein": 22.2,
+         "lipid": 1.2,
+         "carbo": 60,
+         "calorie": 331,
+         "name": "Feijão, roxo, cru"
+      },
+      {
+         "code": "575",
+         "protein": 21.2,
+         "lipid": 5.4,
+         "carbo": 57.9,
+         "calorie": 355,
+         "name": "Grão-de-bico, cru"
+      },
+      {
+         "code": "576",
+         "protein": 19,
+         "lipid": 2.1,
+         "carbo": 64,
+         "calorie": 344,
+         "name": "Guandu, cru"
+      },
+      {
+         "code": "577",
+         "protein": 6.3,
+         "lipid": 0.5,
+         "carbo": 16.3,
+         "calorie": 93,
+         "name": "Lentilha, cozida"
+      },
+      {
+         "code": "578",
+         "protein": 23.2,
+         "lipid": 0.8,
+         "carbo": 62,
+         "calorie": 339,
+         "name": "Lentilha, crua"
+      },
+      {
+         "code": "579",
+         "protein": 16,
+         "lipid": 26.1,
+         "carbo": 52.4,
+         "calorie": 487,
+         "name": "Paçoca, amendoim"
+      },
+      {
+         "code": "580",
+         "protein": 13.2,
+         "lipid": 28,
+         "carbo": 54.7,
+         "calorie": 503,
+         "name": "Pé-de-moleque, amendoim"
+      },
+      {
+         "code": "581",
+         "protein": 36,
+         "lipid": 14.6,
+         "carbo": 38.4,
+         "calorie": 404,
+         "name": "Soja, farinha"
+      },
+      {
+         "code": "582",
+         "protein": 2.4,
+         "lipid": 1.6,
+         "carbo": 4.3,
+         "calorie": 39,
+         "name": "Soja, extrato solúvel, natural, fluido"
+      },
+      {
+         "code": "583",
+         "protein": 35.7,
+         "lipid": 26.2,
+         "carbo": 28.5,
+         "calorie": 459,
+         "name": "Soja, extrato solúvel, pó"
+      },
+      {
+         "code": "584",
+         "protein": 6.6,
+         "lipid": 4,
+         "carbo": 2.1,
+         "calorie": 64,
+         "name": "Soja, queijo (tofu)"
+      },
+      {
+         "code": "585",
+         "protein": 33.6,
+         "lipid": 10.3,
+         "carbo": 43.8,
+         "calorie": 381,
+         "name": "Tremoço, cru"
+      },
+      {
+         "code": "586",
+         "protein": 11.1,
+         "lipid": 3.8,
+         "carbo": 12.4,
+         "calorie": 121,
+         "name": "Tremoço, em conserva"
+      },
+      {
+         "code": "587",
+         "protein": 18.6,
+         "lipid": 47.3,
+         "carbo": 29.5,
+         "calorie": 581,
+         "name": "Amêndoa, torrada, salgada"
+      },
+      {
+         "code": "588",
+         "protein": 18.5,
+         "lipid": 46.3,
+         "carbo": 29.1,
+         "calorie": 570,
+         "name": "Castanha-de-caju, torrada, salgada"
+      },
+      {
+         "code": "589",
+         "protein": 14.5,
+         "lipid": 63.5,
+         "carbo": 15.1,
+         "calorie": 643,
+         "name": "Castanha-do-Brasil, crua"
+      },
+      {
+         "code": "590",
+         "protein": 3.7,
+         "lipid": 42,
+         "carbo": 10.4,
+         "calorie": 406,
+         "name": "Coco, cru"
+      },
+      {
+         "code": "591",
+         "protein": 0,
+         "lipid": 0,
+         "carbo": 0,
+         "calorie": 0,
+         "name": "Coco, verde, cru"
+      },
+      {
+         "code": "592",
+         "protein": 1.4,
+         "lipid": 0.2,
+         "carbo": 79.2,
+         "calorie": 329,
+         "name": "Farinha, de mesocarpo de babaçu, crua"
+      },
+      {
+         "code": "593",
+         "protein": 21.2,
+         "lipid": 50.4,
+         "carbo": 21.6,
+         "calorie": 584,
+         "name": "Gergelim, semente"
+      },
+      {
+         "code": "594",
+         "protein": 14.1,
+         "lipid": 32.3,
+         "carbo": 43.3,
+         "calorie": 495,
+         "name": "Linhaça, semente"
+      },
+      {
+         "code": "595",
+         "protein": 3,
+         "lipid": 0.7,
+         "carbo": 43.9,
+         "calorie": 174,
+         "name": "Pinhão, cozido"
+      },
+      {
+         "code": "596",
+         "protein": 2.5,
+         "lipid": 12.8,
+         "carbo": 29.6,
+         "calorie": 219,
+         "name": "Pupunha, cozida"
+      },
+      {
+         "code": "597",
+         "protein": 14,
+         "lipid": 59.4,
+         "carbo": 18.4,
+         "calorie": 620,
+         "name": "Noz, crua"
+      }
+   ]
+}
