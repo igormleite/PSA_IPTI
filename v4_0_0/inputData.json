@@ -1,0 +1,5495 @@
+{
+   "config": {
+      "method": "similarityMatrix",
+      "kernel": "linear",
+      "colors": [
+         "green",
+         "yellow",
+         "red"
+      ],
+      "limit": 5,
+      "weights": {
+         "protein": 1,
+         "lipid": 0,
+         "calorie": 0,
+         "carbo": 0
+      }
+   },
+   "menuList": [
+      {
+         "schooltype": "CRECHE",
+         "mealtype": "Almoco",
+         "code": "1",
+         "description": "Arroz com cenoura, feijão carioca, filé de frango ao molho, salada crua (alface com tomate e cebola picadinhos)",
+         "items": [
+            {
+               "code": "3",
+               "replaceable": true
+            },
+            {
+               "code": "562",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "78",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "409",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "CRECHE",
+         "mealtype": "Almoco",
+         "code": "2",
+         "description": "Arroz, feijão com carne acebolada, salada crua (alface, tomate, cenoura e coentro)",
+         "items": [
+            {
+               "code": "110",
+               "replaceable": true
+            },
+            {
+               "code": "3",
+               "replaceable": true
+            },
+            {
+               "code": "562",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "78",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "114",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "CRECHE",
+         "mealtype": "Almoco",
+         "code": "3",
+         "description": "Arroz, feijão com quiabada (Arroz, feijão, carne, quiabo e temperos)",
+         "items": [
+            {
+               "code": "3",
+               "replaceable": true
+            },
+            {
+               "code": "562",
+               "replaceable": true
+            },
+            {
+               "code": "71091011",
+               "replaceable": true
+            },
+            {
+               "code": "147",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "CRECHE",
+         "mealtype": "Almoco",
+         "code": "4",
+         "description": "Arroz, feijão purê de batata com carne desfiada",
+         "items": [
+            {
+               "code": "458",
+               "replaceable": true
+            },
+            {
+               "code": "92",
+               "replaceable": true
+            },
+            {
+               "code": "3",
+               "replaceable": true
+            },
+            {
+               "code": "562",
+               "replaceable": true
+            },
+            {
+               "code": "71091011",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "CRECHE",
+         "mealtype": "Almoco",
+         "code": "5",
+         "description": "Arroz, feijão, frango cozido com batatinha e abóbora",
+         "items": [
+            {
+               "code": "397",
+               "replaceable": true
+            },
+            {
+               "code": "92",
+               "replaceable": true
+            },
+            {
+               "code": "3",
+               "replaceable": true
+            },
+            {
+               "code": "562",
+               "replaceable": true
+            },
+            {
+               "code": "69",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "CRECHE",
+         "mealtype": "Almoco",
+         "code": "6",
+         "description": "Arroz, feijão, purê de batata com file de peixe",
+         "items": [
+            {
+               "code": "92",
+               "replaceable": true
+            },
+            {
+               "code": "3",
+               "replaceable": true
+            },
+            {
+               "code": "562",
+               "replaceable": true
+            },
+            {
+               "code": "74001011",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "CRECHE",
+         "mealtype": "Almoco",
+         "code": "7",
+         "description": "Baião de dois com carne desfiada Abóbora cozida no vapor",
+         "items": [
+            {
+               "code": "3",
+               "replaceable": true
+            },
+            {
+               "code": "562",
+               "replaceable": true
+            },
+            {
+               "code": "69",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "CRECHE",
+         "mealtype": "Almoco",
+         "code": "8",
+         "description": "Macarronada de frango verduras cozidas no vapor (batatinha e cenoura) ",
+         "items": [
+            {
+               "code": "40",
+               "replaceable": true
+            },
+            {
+               "code": "397",
+               "replaceable": true
+            },
+            {
+               "code": "92",
+               "replaceable": true
+            },
+            {
+               "code": "110",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "CRECHE",
+         "mealtype": "Almoco",
+         "code": "9",
+         "description": "Macarrão ao molho com carne moída, beterraba e cenoura.",
+         "items": [
+            {
+               "code": "40",
+               "replaceable": true
+            },
+            {
+               "code": "110",
+               "replaceable": true
+            },
+            {
+               "code": "352",
+               "replaceable": true
+            },
+            {
+               "code": "98",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "CRECHE",
+         "mealtype": "Almoco",
+         "code": "10",
+         "description": "Risoto de frango Salada crua (beterraba e cenoura ralada) Tangerina",
+         "items": [
+            {
+               "code": "397",
+               "replaceable": true
+            },
+            {
+               "code": "110",
+               "replaceable": true
+            },
+            {
+               "code": "3",
+               "replaceable": true
+            },
+            {
+               "code": "98",
+               "replaceable": true
+            },
+            {
+               "code": "319",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "CRECHE",
+         "mealtype": "Desjejum",
+         "code": "11",
+         "description": "Batata doce com frango desfiado",
+         "items": [
+            {
+               "code": "397",
+               "replaceable": true
+            },
+            {
+               "code": "89",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "CRECHE",
+         "mealtype": "Desjejum",
+         "code": "12",
+         "description": "Cuscuz com Leite",
+         "items": [
+            {
+               "code": "458",
+               "replaceable": true
+            },
+            {
+               "code": "650080299",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "CRECHE",
+         "mealtype": "Desjejum",
+         "code": "13",
+         "description": "Cuscuz com ovos",
+         "items": [
+            {
+               "code": "650080299",
+               "replaceable": true
+            },
+            {
+               "code": "489",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "CRECHE",
+         "mealtype": "Desjejum",
+         "code": "14",
+         "description": "Macaxeira cozida com frango desfiado",
+         "items": [
+            {
+               "code": "397",
+               "replaceable": true
+            },
+            {
+               "code": "130",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "CRECHE",
+         "mealtype": "Desjejum",
+         "code": "15",
+         "description": "Mingau de Milho",
+         "items": [
+            {
+               "code": "458",
+               "replaceable": true
+            },
+            {
+               "code": "43",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "CRECHE",
+         "mealtype": "Desjejum",
+         "code": "16",
+         "description": "Mingau de maizena (Leite, maizena)",
+         "items": [
+            {
+               "code": "458",
+               "replaceable": true
+            },
+            {
+               "code": "42",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "CRECHE",
+         "mealtype": "Desjejum",
+         "code": "17",
+         "description": "Pão de macaxeira + com ovos mexidos Vitamina de banana (Leite, banana)",
+         "items": [
+            {
+               "code": "458",
+               "replaceable": true
+            },
+            {
+               "code": "489",
+               "replaceable": true
+            },
+            {
+               "code": "182",
+               "replaceable": true
+            },
+            {
+               "code": "800150199",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "CRECHE",
+         "mealtype": "Desjejum",
+         "code": "18",
+         "description": "Sopa de legumes (macarrão, feijão, batatinha, chuchu, carne moída)",
+         "items": [
+            {
+               "code": "40",
+               "replaceable": true
+            },
+            {
+               "code": "92",
+               "replaceable": true
+            },
+            {
+               "code": "562",
+               "replaceable": true
+            },
+            {
+               "code": "113",
+               "replaceable": true
+            },
+            {
+               "code": "352",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "CRECHE",
+         "mealtype": "Lanche_manha",
+         "code": "19",
+         "description": "Abacaxi em rodelas ",
+         "items": [
+            {
+               "code": "164",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "CRECHE",
+         "mealtype": "Lanche_manha",
+         "code": "20",
+         "description": "Banana amassada com aveia",
+         "items": [
+            {
+               "code": "7",
+               "replaceable": true
+            },
+            {
+               "code": "182",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "CRECHE",
+         "mealtype": "Lanche_manha",
+         "code": "21",
+         "description": "Mamão em cubinhos",
+         "items": [
+            {
+               "code": "225",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "CRECHE",
+         "mealtype": "Lanche_manha",
+         "code": "22",
+         "description": "Mamão em cubos",
+         "items": [
+            {
+               "code": "225",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "CRECHE",
+         "mealtype": "Lanche_manha",
+         "code": "23",
+         "description": "Melancia",
+         "items": [
+            {
+               "code": "235",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "CRECHE",
+         "mealtype": "Lanche_manha",
+         "code": "24",
+         "description": "Pipoca + vitamina de mamão (leite/Mamão)",
+         "items": [
+            {
+               "code": "458",
+               "replaceable": true
+            },
+            {
+               "code": "225",
+               "replaceable": true
+            },
+            {
+               "code": "61",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "CRECHE",
+         "mealtype": "Lanche_manha",
+         "code": "25",
+         "description": "Salada de fruta com aveia (abacaxi, mamão, banana)",
+         "items": [
+            {
+               "code": "225",
+               "replaceable": true
+            },
+            {
+               "code": "7",
+               "replaceable": true
+            },
+            {
+               "code": "182",
+               "replaceable": true
+            },
+            {
+               "code": "164",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "CRECHE",
+         "mealtype": "Lanche_manha",
+         "code": "26",
+         "description": "Tangerina",
+         "items": [
+            {
+               "code": "319",
+               "replaceable": true
+            },
+            {
+               "code": "251",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "CRECHE",
+         "mealtype": "Lanche_tarde",
+         "code": "27",
+         "description": "Arroz doce (sem açúcar)",
+         "items": [
+            {
+               "code": "458",
+               "replaceable": true
+            },
+            {
+               "code": "3",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "CRECHE",
+         "mealtype": "Lanche_tarde",
+         "code": "28",
+         "description": "Canja de galinha (arroz, frango, batata inglesa, cenoura e temperos)",
+         "items": [
+            {
+               "code": "397",
+               "replaceable": true
+            },
+            {
+               "code": "92",
+               "replaceable": true
+            },
+            {
+               "code": "110",
+               "replaceable": true
+            },
+            {
+               "code": "3",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "CRECHE",
+         "mealtype": "Lanche_tarde",
+         "code": "29",
+         "description": "Cuscuz com charque desfiado acebolado",
+         "items": [
+            {
+               "code": "650080299",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "353",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "CRECHE",
+         "mealtype": "Lanche_tarde",
+         "code": "30",
+         "description": "Cuscuz com ovos mexidos (Cuscuz+Ovos)",
+         "items": [
+            {
+               "code": "650080299",
+               "replaceable": true
+            },
+            {
+               "code": "489",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "CRECHE",
+         "mealtype": "Lanche_tarde",
+         "code": "31",
+         "description": "Mingau de aveia com canela (Aveia, leite, canela)",
+         "items": [
+            {
+               "code": "458",
+               "replaceable": true
+            },
+            {
+               "code": "7",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "CRECHE",
+         "mealtype": "Lanche_tarde",
+         "code": "32",
+         "description": "Mingau de milho (Leite, fubá, canela) ",
+         "items": [
+            {
+               "code": "458",
+               "replaceable": true
+            },
+            {
+               "code": "43",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "CRECHE",
+         "mealtype": "Lanche_tarde",
+         "code": "33",
+         "description": "Sopa de feijão (feijão, massa para sopa, cenoura e temperos)",
+         "items": [
+            {
+               "code": "40",
+               "replaceable": true
+            },
+            {
+               "code": "110",
+               "replaceable": true
+            },
+            {
+               "code": "562",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "CRECHE",
+         "mealtype": "Lanche_tarde",
+         "code": "34",
+         "description": "Sopa de feijão com charque (feijão, batatinha, chuchu macarrão/sopa, charque)",
+         "items": [
+            {
+               "code": "40",
+               "replaceable": true
+            },
+            {
+               "code": "92",
+               "replaceable": true
+            },
+            {
+               "code": "562",
+               "replaceable": true
+            },
+            {
+               "code": "113",
+               "replaceable": true
+            },
+            {
+               "code": "353",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "CRECHE",
+         "mealtype": "Lanche_tarde",
+         "code": "35",
+         "description": "Vitamina de mamão Bolo de banana sem açúcar ",
+         "items": [
+            {
+               "code": "458",
+               "replaceable": true
+            },
+            {
+               "code": "225",
+               "replaceable": true
+            },
+            {
+               "code": "801060199",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "EJA",
+         "mealtype": "Jantar",
+         "code": "36",
+         "description": " Mungunzá, Biscoito cream cracker, Fruta: Melancia",
+         "items": [
+            {
+               "code": "458",
+               "replaceable": true
+            },
+            {
+               "code": "235",
+               "replaceable": true
+            },
+            {
+               "code": "492",
+               "replaceable": true
+            },
+            {
+               "code": "523",
+               "replaceable": true
+            },
+            {
+               "code": "850190299",
+               "replaceable": true
+            },
+            {
+               "code": "13",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "EJA",
+         "mealtype": "Jantar",
+         "code": "37",
+         "description": "Arroz doce, Biscoito Maria",
+         "items": [
+            {
+               "code": "458",
+               "replaceable": true
+            },
+            {
+               "code": "492",
+               "replaceable": true
+            },
+            {
+               "code": "523",
+               "replaceable": true
+            },
+            {
+               "code": "660010199",
+               "replaceable": true
+            },
+            {
+               "code": "8",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "EJA",
+         "mealtype": "Jantar",
+         "code": "38",
+         "description": "Arroz, Feijão, Quiabada de carne,Farofa,Suco de jenipapo",
+         "items": [
+            {
+               "code": "562",
+               "replaceable": true
+            },
+            {
+               "code": "71091011",
+               "replaceable": true
+            },
+            {
+               "code": "147",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            },
+            {
+               "code": "144",
+               "replaceable": true
+            },
+            {
+               "code": "122",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "EJA",
+         "mealtype": "Jantar",
+         "code": "39",
+         "description": "Batata Doce, Carne de panela cozida com verduras, Café com leite",
+         "items": [
+            {
+               "code": "92",
+               "replaceable": true
+            },
+            {
+               "code": "71091011",
+               "replaceable": true
+            },
+            {
+               "code": "147",
+               "replaceable": true
+            },
+            {
+               "code": "69",
+               "replaceable": true
+            },
+            {
+               "code": "89",
+               "replaceable": true
+            },
+            {
+               "code": "511",
+               "replaceable": true
+            },
+            {
+               "code": "459",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "EJA",
+         "mealtype": "Jantar",
+         "code": "40",
+         "description": "Batata doce, Ovos mexidos+ Pão de macaxeira, Café com leite, Fruta: Laranja",
+         "items": [
+            {
+               "code": "489",
+               "replaceable": true
+            },
+            {
+               "code": "800150199",
+               "replaceable": true
+            },
+            {
+               "code": "89",
+               "replaceable": true
+            },
+            {
+               "code": "511",
+               "replaceable": true
+            },
+            {
+               "code": "459",
+               "replaceable": true
+            },
+            {
+               "code": "208",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "EJA",
+         "mealtype": "Jantar",
+         "code": "41",
+         "description": "Batata doce, frango cozido com quiabo e abóbora, Café com leite, Fruta: Tangerina",
+         "items": [
+            {
+               "code": "397",
+               "replaceable": true
+            },
+            {
+               "code": "147",
+               "replaceable": true
+            },
+            {
+               "code": "319",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "69",
+               "replaceable": true
+            },
+            {
+               "code": "89",
+               "replaceable": true
+            },
+            {
+               "code": "511",
+               "replaceable": true
+            },
+            {
+               "code": "459",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            },
+            {
+               "code": "144",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "EJA",
+         "mealtype": "Jantar",
+         "code": "42",
+         "description": "Cachorro quente de carne moída, Fruta: Melancia, Suco de Maracujá",
+         "items": [
+            {
+               "code": "352",
+               "replaceable": true
+            },
+            {
+               "code": "800010399",
+               "replaceable": true
+            },
+            {
+               "code": "800460199",
+               "replaceable": true
+            },
+            {
+               "code": "492",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "EJA",
+         "mealtype": "Jantar",
+         "code": "43",
+         "description": "Cuscuz  com tirinhas de carne bovina acebolada, Vinagrete,  Fruta: Banana, Café com leite",
+         "items": [
+            {
+               "code": "650080299",
+               "replaceable": true
+            },
+            {
+               "code": "71091011",
+               "replaceable": true
+            },
+            {
+               "code": "182",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "511",
+               "replaceable": true
+            },
+            {
+               "code": "459",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            },
+            {
+               "code": "144",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "EJA",
+         "mealtype": "Jantar",
+         "code": "44",
+         "description": "Cuscuz Temperado com sardinha, Fruta: Laranja, Café com leite",
+         "items": [
+            {
+               "code": "110",
+               "replaceable": true
+            },
+            {
+               "code": "650080299",
+               "replaceable": true
+            },
+            {
+               "code": "319",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "511",
+               "replaceable": true
+            },
+            {
+               "code": "459",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "EJA",
+         "mealtype": "Jantar",
+         "code": "45",
+         "description": "Cuscuz com ovos, Café com leite, Fruta: Melancia",
+         "items": [
+            {
+               "code": "650080299",
+               "replaceable": true
+            },
+            {
+               "code": "489",
+               "replaceable": true
+            },
+            {
+               "code": "235",
+               "replaceable": true
+            },
+            {
+               "code": "511",
+               "replaceable": true
+            },
+            {
+               "code": "459",
+               "replaceable": true
+            },
+            {
+               "code": "800460199",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "EJA",
+         "mealtype": "Jantar",
+         "code": "46",
+         "description": "Cuscuz, Fígado acebolado, Salada: alface, tomate, cebola, Café com leite,Fruta: Laranja",
+         "items": [
+            {
+               "code": "650080299",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "78",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "511",
+               "replaceable": true
+            },
+            {
+               "code": "459",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            },
+            {
+               "code": "208",
+               "replaceable": true
+            },
+            {
+               "code": "71025011",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "EJA",
+         "mealtype": "Jantar",
+         "code": "47",
+         "description": "Inhame Ovos temperado (ovo, cebola, tomate, coentro), Café com leite",
+         "items": [
+            {
+               "code": "489",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "114",
+               "replaceable": true
+            },
+            {
+               "code": "511",
+               "replaceable": true
+            },
+            {
+               "code": "459",
+               "replaceable": true
+            },
+            {
+               "code": "126",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "EJA",
+         "mealtype": "Jantar",
+         "code": "48",
+         "description": "Inhame com carne bovina ao molho, Salada:  Couve refogada, Café com leite, Fruta: Laranja\n",
+         "items": [
+            {
+               "code": "71091011",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "511",
+               "replaceable": true
+            },
+            {
+               "code": "459",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            },
+            {
+               "code": "144",
+               "replaceable": true
+            },
+            {
+               "code": "208",
+               "replaceable": true
+            },
+            {
+               "code": "158",
+               "replaceable": true
+            },
+            {
+               "code": "126",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "EJA",
+         "mealtype": "Jantar",
+         "code": "49",
+         "description": "Macarrão ao molho com carne moída + Salada crua (couve, tomate e cebola), Fruta: Tangerina, Suco de abacaxi",
+         "items": [
+            {
+               "code": "40",
+               "replaceable": true
+            },
+            {
+               "code": "352",
+               "replaceable": true
+            },
+            {
+               "code": "319",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            },
+            {
+               "code": "144",
+               "replaceable": true
+            },
+            {
+               "code": "158",
+               "replaceable": true
+            },
+            {
+               "code": "115",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "EJA",
+         "mealtype": "Jantar",
+         "code": "50",
+         "description": "Macarrão ao molho com carne moída, Salada crua: couve, tomate e cebola, Fruta: Tangerina , Suco de abacaxi",
+         "items": [
+            {
+               "code": "40",
+               "replaceable": true
+            },
+            {
+               "code": "352",
+               "replaceable": true
+            },
+            {
+               "code": "319",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            },
+            {
+               "code": "144",
+               "replaceable": true
+            },
+            {
+               "code": "158",
+               "replaceable": true
+            },
+            {
+               "code": "115",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "EJA",
+         "mealtype": "Jantar",
+         "code": "51",
+         "description": "Macaxeira com frango cozido com quiabo e abobora, Fruta: Tangerina, Café com leite",
+         "items": [
+            {
+               "code": "397",
+               "replaceable": true
+            },
+            {
+               "code": "147",
+               "replaceable": true
+            },
+            {
+               "code": "319",
+               "replaceable": true
+            },
+            {
+               "code": "130",
+               "replaceable": true
+            },
+            {
+               "code": "69",
+               "replaceable": true
+            },
+            {
+               "code": "511",
+               "replaceable": true
+            },
+            {
+               "code": "459",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "EJA",
+         "mealtype": "Jantar",
+         "code": "52",
+         "description": "Macaxeira, Frango assado (coxa/sobrecoxa), Salada cozida/Vapor, Café com leite",
+         "items": [
+            {
+               "code": "397",
+               "replaceable": true
+            },
+            {
+               "code": "92",
+               "replaceable": true
+            },
+            {
+               "code": "110",
+               "replaceable": true
+            },
+            {
+               "code": "130",
+               "replaceable": true
+            },
+            {
+               "code": "511",
+               "replaceable": true
+            },
+            {
+               "code": "459",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "EJA",
+         "mealtype": "Jantar",
+         "code": "53",
+         "description": "Risotto de frango / e ou Pé de moleque, Suco de acerola",
+         "items": [
+            {
+               "code": "397",
+               "replaceable": true
+            },
+            {
+               "code": "92",
+               "replaceable": true
+            },
+            {
+               "code": "110",
+               "replaceable": true
+            },
+            {
+               "code": "800010399",
+               "replaceable": true
+            },
+            {
+               "code": "492",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "EJA",
+         "mealtype": "Jantar",
+         "code": "54",
+         "description": "Sopa de feijão com Charque, Café com leite",
+         "items": [
+            {
+               "code": "40",
+               "replaceable": true
+            },
+            {
+               "code": "92",
+               "replaceable": true
+            },
+            {
+               "code": "110",
+               "replaceable": true
+            },
+            {
+               "code": "562",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "353",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            },
+            {
+               "code": "144",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "EJA",
+         "mealtype": "Jantar",
+         "code": "55",
+         "description": "Sopa de feijão com macarrão, charque em cubinhos e verduras (batatinha, cenoura), Café com leite",
+         "items": [
+            {
+               "code": "40",
+               "replaceable": true
+            },
+            {
+               "code": "92",
+               "replaceable": true
+            },
+            {
+               "code": "110",
+               "replaceable": true
+            },
+            {
+               "code": "562",
+               "replaceable": true
+            },
+            {
+               "code": "353",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_manha",
+         "code": "56",
+         "description": "Arroz doce (arroz, leite de coco, leite, açúcar, coco ralado, canela), Fruta: Banana",
+         "items": [
+            {
+               "code": "458",
+               "replaceable": true
+            },
+            {
+               "code": "182",
+               "replaceable": true
+            },
+            {
+               "code": "492",
+               "replaceable": true
+            },
+            {
+               "code": "523",
+               "replaceable": true
+            },
+            {
+               "code": "660010199",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_manha",
+         "code": "57",
+         "description": "Arroz, feijão peixe ao molho Salada de alface, tomate e cebola, Suco de abacaxi",
+         "items": [
+            {
+               "code": "562",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "78",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "251",
+               "replaceable": true
+            },
+            {
+               "code": "74001011",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            },
+            {
+               "code": "158",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_manha",
+         "code": "58",
+         "description": "Arroz, feijão, Isca de frango acebolado, Salada crua: couve, tomate, cebola, Fruta: Banana",
+         "items": [
+            {
+               "code": "397",
+               "replaceable": true
+            },
+            {
+               "code": "562",
+               "replaceable": true
+            },
+            {
+               "code": "182",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            },
+            {
+               "code": "158",
+               "replaceable": true
+            },
+            {
+               "code": "115",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_manha",
+         "code": "59",
+         "description": "Arroz, feijão, frango cozido com batata e abóbora Fruta: Laranja",
+         "items": [
+            {
+               "code": "397",
+               "replaceable": true
+            },
+            {
+               "code": "92",
+               "replaceable": true
+            },
+            {
+               "code": "562",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "69",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            },
+            {
+               "code": "208",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_manha",
+         "code": "60",
+         "description": "Batata doce com frango ao molho, Fruta: Tangerina",
+         "items": [
+            {
+               "code": "397",
+               "replaceable": true
+            },
+            {
+               "code": "319",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "89",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            },
+            {
+               "code": "144",
+               "replaceable": true
+            },
+            {
+               "code": "158",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_manha",
+         "code": "61",
+         "description": "Biscoito salgado, Achocolatado quente, Fruta: Melancia",
+         "items": [
+            {
+               "code": "235",
+               "replaceable": true
+            },
+            {
+               "code": "13",
+               "replaceable": true
+            },
+            {
+               "code": "491",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_manha",
+         "code": "62",
+         "description": "Bolo, Achocolatado quente, Fruta: Melancia",
+         "items": [
+            {
+               "code": "800460199",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_manha",
+         "code": "63",
+         "description": "Bolo, Suco acerola, Fruta: Mamão",
+         "items": [
+            {
+               "code": "458",
+               "replaceable": true
+            },
+            {
+               "code": "225",
+               "replaceable": true
+            },
+            {
+               "code": "489",
+               "replaceable": true
+            },
+            {
+               "code": "800460199",
+               "replaceable": true
+            },
+            {
+               "code": "35",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_manha",
+         "code": "64",
+         "description": "Cachorro quente de carne moída, (Pão, carne moída, temperos), Suco de abacaxi",
+         "items": [
+            {
+               "code": "352",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            },
+            {
+               "code": "800010399",
+               "replaceable": true
+            },
+            {
+               "code": "492",
+               "replaceable": true
+            },
+            {
+               "code": "144",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_manha",
+         "code": "65",
+         "description": "Cuscuz com ovos mexidos, Suco de maracujá",
+         "items": [
+            {
+               "code": "650080299",
+               "replaceable": true
+            },
+            {
+               "code": "489",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_manha",
+         "code": "66",
+         "description": "Cuscuz temperado com ovo, Fruta: Melancia",
+         "items": [
+            {
+               "code": "110",
+               "replaceable": true
+            },
+            {
+               "code": "650080299",
+               "replaceable": true
+            },
+            {
+               "code": "489",
+               "replaceable": true
+            },
+            {
+               "code": "235",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_manha",
+         "code": "67",
+         "description": "Inhame com carne bovina ao molho, Fruta: Laranja",
+         "items": [
+            {
+               "code": "71091011",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "158",
+               "replaceable": true
+            },
+            {
+               "code": "126",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_manha",
+         "code": "68",
+         "description": "Inhame, Charque acebolado com batatinha, Fruta: Melancia",
+         "items": [
+            {
+               "code": "92",
+               "replaceable": true
+            },
+            {
+               "code": "235",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "353",
+               "replaceable": true
+            },
+            {
+               "code": "126",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_manha",
+         "code": "69",
+         "description": "Macarronada de carne moída, Couve refogada, Suco de acerola",
+         "items": [
+            {
+               "code": "40",
+               "replaceable": true
+            },
+            {
+               "code": "352",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            },
+            {
+               "code": "492",
+               "replaceable": true
+            },
+            {
+               "code": "158",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_manha",
+         "code": "70",
+         "description": "Macarrão ao molho de tomate com carne moída, Salada crua: Alface, tomate, cebola, Suco de maracujá",
+         "items": [
+            {
+               "code": "40",
+               "replaceable": true
+            },
+            {
+               "code": "352",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "78",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "492",
+               "replaceable": true
+            },
+            {
+               "code": "158",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_manha",
+         "code": "71",
+         "description": "Macaxeira com carne bovina acebolada, Suco de abacaxi",
+         "items": [
+            {
+               "code": "71091011",
+               "replaceable": true
+            },
+            {
+               "code": "130",
+               "replaceable": true
+            },
+            {
+               "code": "492",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_manha",
+         "code": "72",
+         "description": "Macaxeira com frango cozido com batatinha e abóbora, Fruta: Abacaxi em rodelas",
+         "items": [
+            {
+               "code": "397",
+               "replaceable": true
+            },
+            {
+               "code": "92",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "130",
+               "replaceable": true
+            },
+            {
+               "code": "69",
+               "replaceable": true
+            },
+            {
+               "code": "144",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_manha",
+         "code": "73",
+         "description": "Mungunzá com biscoito doce (Tipo :Maria)",
+         "items": [
+            {
+               "code": "458",
+               "replaceable": true
+            },
+            {
+               "code": "492",
+               "replaceable": true
+            },
+            {
+               "code": "523",
+               "replaceable": true
+            },
+            {
+               "code": "8",
+               "replaceable": true
+            },
+            {
+               "code": "850190299",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_manha",
+         "code": "74",
+         "description": "Pão de macaxeira com carne moída, Suco de maracujá",
+         "items": [
+            {
+               "code": "800150199",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_manha",
+         "code": "75",
+         "description": "Risoto de frango com cenoura, Salada: Couve refogada, Fruta: Tangerina",
+         "items": [
+            {
+               "code": "397",
+               "replaceable": true
+            },
+            {
+               "code": "110",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "158",
+               "replaceable": true
+            },
+            {
+               "code": "115",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_manha",
+         "code": "76",
+         "description": "Sopa de feijão e legumes com charque (feijão, batatinha, cenoura, charque, macarrão), Fruta: Abacaxi em rodelas",
+         "items": [
+            {
+               "code": "40",
+               "replaceable": true
+            },
+            {
+               "code": "92",
+               "replaceable": true
+            },
+            {
+               "code": "110",
+               "replaceable": true
+            },
+            {
+               "code": "562",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "353",
+               "replaceable": true
+            },
+            {
+               "code": "164",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            },
+            {
+               "code": "144",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_manha",
+         "code": "77",
+         "description": "Torta salgada de carne moída com legumes, Suco de maracujá",
+         "items": [
+            {
+               "code": "110",
+               "replaceable": true
+            },
+            {
+               "code": "489",
+               "replaceable": true
+            },
+            {
+               "code": "352",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "114",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            },
+            {
+               "code": "35",
+               "replaceable": true
+            },
+            {
+               "code": "272",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "78",
+         "description": "Arroz doce (arroz, leite de coco, leite, açúcar, coco ralado, canela), Fruta: Banana",
+         "items": [
+            {
+               "code": "458",
+               "replaceable": true
+            },
+            {
+               "code": "182",
+               "replaceable": true
+            },
+            {
+               "code": "492",
+               "replaceable": true
+            },
+            {
+               "code": "523",
+               "replaceable": true
+            },
+            {
+               "code": "660010199",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "79",
+         "description": "Arroz, feijão peixe ao molho Salada de alface, tomate e cebola, Suco de abacaxi",
+         "items": [
+            {
+               "code": "562",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "78",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "251",
+               "replaceable": true
+            },
+            {
+               "code": "74001011",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            },
+            {
+               "code": "158",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "80",
+         "description": "Arroz, feijão, Isca de frango acebolado, Salada crua: couve, tomate, cebola, Fruta: Banana",
+         "items": [
+            {
+               "code": "397",
+               "replaceable": true
+            },
+            {
+               "code": "562",
+               "replaceable": true
+            },
+            {
+               "code": "182",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            },
+            {
+               "code": "158",
+               "replaceable": true
+            },
+            {
+               "code": "115",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "81",
+         "description": "Arroz, feijão, frango cozido com batata e abóbora Fruta: Laranja",
+         "items": [
+            {
+               "code": "397",
+               "replaceable": true
+            },
+            {
+               "code": "92",
+               "replaceable": true
+            },
+            {
+               "code": "562",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "69",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            },
+            {
+               "code": "208",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "82",
+         "description": "Batata doce com frango ao molho, Fruta: Tangerina",
+         "items": [
+            {
+               "code": "397",
+               "replaceable": true
+            },
+            {
+               "code": "319",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "89",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            },
+            {
+               "code": "144",
+               "replaceable": true
+            },
+            {
+               "code": "158",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "83",
+         "description": "Biscoito salgado, Achocolatado quente, Fruta: Melancia",
+         "items": [
+            {
+               "code": "235",
+               "replaceable": true
+            },
+            {
+               "code": "13",
+               "replaceable": true
+            },
+            {
+               "code": "491",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "84",
+         "description": "Bolo, Achocolatado quente, Fruta: Melancia",
+         "items": [
+            {
+               "code": "800460199",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "85",
+         "description": "Bolo, Suco acerola, Fruta: Mamão",
+         "items": [
+            {
+               "code": "458",
+               "replaceable": true
+            },
+            {
+               "code": "225",
+               "replaceable": true
+            },
+            {
+               "code": "489",
+               "replaceable": true
+            },
+            {
+               "code": "800460199",
+               "replaceable": true
+            },
+            {
+               "code": "35",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "86",
+         "description": "Cachorro quente de carne moída, (Pão, carne moída, temperos), Suco de abacaxi",
+         "items": [
+            {
+               "code": "352",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            },
+            {
+               "code": "800010399",
+               "replaceable": true
+            },
+            {
+               "code": "492",
+               "replaceable": true
+            },
+            {
+               "code": "144",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "87",
+         "description": "Cuscuz com ovos mexidos, Suco de maracujá",
+         "items": [
+            {
+               "code": "650080299",
+               "replaceable": true
+            },
+            {
+               "code": "489",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "88",
+         "description": "Cuscuz temperado com ovo, Fruta: Melancia",
+         "items": [
+            {
+               "code": "110",
+               "replaceable": true
+            },
+            {
+               "code": "650080299",
+               "replaceable": true
+            },
+            {
+               "code": "489",
+               "replaceable": true
+            },
+            {
+               "code": "235",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "89",
+         "description": "Inhame com carne bovina ao molho, Fruta: Laranja",
+         "items": [
+            {
+               "code": "71091011",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "158",
+               "replaceable": true
+            },
+            {
+               "code": "126",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "90",
+         "description": "Inhame, Charque acebolado com batatinha, Fruta: Melancia",
+         "items": [
+            {
+               "code": "92",
+               "replaceable": true
+            },
+            {
+               "code": "235",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "353",
+               "replaceable": true
+            },
+            {
+               "code": "126",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "91",
+         "description": "Macarronada de carne moída, Couve refogada, Suco de acerola",
+         "items": [
+            {
+               "code": "40",
+               "replaceable": true
+            },
+            {
+               "code": "352",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            },
+            {
+               "code": "492",
+               "replaceable": true
+            },
+            {
+               "code": "158",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "92",
+         "description": "Macarrão ao molho de tomate com carne moída, Salada crua: Alface, tomate, cebola, Suco de maracujá",
+         "items": [
+            {
+               "code": "40",
+               "replaceable": true
+            },
+            {
+               "code": "352",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "78",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "492",
+               "replaceable": true
+            },
+            {
+               "code": "158",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "93",
+         "description": "Macaxeira com carne bovina acebolada, Suco de abacaxi",
+         "items": [
+            {
+               "code": "71091011",
+               "replaceable": true
+            },
+            {
+               "code": "130",
+               "replaceable": true
+            },
+            {
+               "code": "492",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "94",
+         "description": "Macaxeira com frango cozido com batatinha e abóbora, Fruta: Abacaxi em rodelas",
+         "items": [
+            {
+               "code": "397",
+               "replaceable": true
+            },
+            {
+               "code": "92",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "130",
+               "replaceable": true
+            },
+            {
+               "code": "69",
+               "replaceable": true
+            },
+            {
+               "code": "144",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "95",
+         "description": "Mungunzá com biscoito doce (Tipo :Maria)",
+         "items": [
+            {
+               "code": "458",
+               "replaceable": true
+            },
+            {
+               "code": "492",
+               "replaceable": true
+            },
+            {
+               "code": "523",
+               "replaceable": true
+            },
+            {
+               "code": "8",
+               "replaceable": true
+            },
+            {
+               "code": "850190299",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "96",
+         "description": "Pão de macaxeira com carne moída, Suco de maracujá",
+         "items": [
+            {
+               "code": "800150199",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "97",
+         "description": "Risoto de frango com cenoura, Salada: Couve refogada, Fruta: Tangerina",
+         "items": [
+            {
+               "code": "397",
+               "replaceable": true
+            },
+            {
+               "code": "110",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "158",
+               "replaceable": true
+            },
+            {
+               "code": "115",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "98",
+         "description": "Sopa de feijão e legumes com charque (feijão, batatinha, cenoura, charque, macarrão), Fruta: Abacaxi em rodelas",
+         "items": [
+            {
+               "code": "40",
+               "replaceable": true
+            },
+            {
+               "code": "92",
+               "replaceable": true
+            },
+            {
+               "code": "110",
+               "replaceable": true
+            },
+            {
+               "code": "562",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "353",
+               "replaceable": true
+            },
+            {
+               "code": "164",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            },
+            {
+               "code": "144",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "PRE_ESCOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "99",
+         "description": "Torta salgada de carne moída com legumes, Suco de maracujá",
+         "items": [
+            {
+               "code": "110",
+               "replaceable": true
+            },
+            {
+               "code": "489",
+               "replaceable": true
+            },
+            {
+               "code": "352",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "114",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            },
+            {
+               "code": "35",
+               "replaceable": true
+            },
+            {
+               "code": "272",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_manha",
+         "code": "100",
+         "description": "Arroz doce, Biscoito doce, Fruta: Banana",
+         "items": [
+            {
+               "code": "458",
+               "replaceable": true
+            },
+            {
+               "code": "182",
+               "replaceable": true
+            },
+            {
+               "code": "492",
+               "replaceable": true
+            },
+            {
+               "code": "523",
+               "replaceable": true
+            },
+            {
+               "code": "660010199",
+               "replaceable": true
+            },
+            {
+               "code": "8",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_manha",
+         "code": "101",
+         "description": "Arroz, feijão peixe ao molho Salada de alface, tomate e cebola, Suco de abacaxi",
+         "items": [
+            {
+               "code": "562",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "78",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "74001011",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            },
+            {
+               "code": "158",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_manha",
+         "code": "102",
+         "description": "Arroz, feijão, Isca de frango acebolado, Salada crua: couve, tomate, cebola, Fruta: Mamão em cubos",
+         "items": [
+            {
+               "code": "397",
+               "replaceable": true
+            },
+            {
+               "code": "562",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            },
+            {
+               "code": "158",
+               "replaceable": true
+            },
+            {
+               "code": "115",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_manha",
+         "code": "103",
+         "description": "Arroz, feijão, frango cozido, Salada crua: Cenoura e beterraba ralada, Fruta: Laranja\n",
+         "items": [
+            {
+               "code": "397",
+               "replaceable": true
+            },
+            {
+               "code": "110",
+               "replaceable": true
+            },
+            {
+               "code": "562",
+               "replaceable": true
+            },
+            {
+               "code": "98",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            },
+            {
+               "code": "144",
+               "replaceable": true
+            },
+            {
+               "code": "208",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_manha",
+         "code": "104",
+         "description": "Batata doce, Frango coxa e sobrecoxa assada, Fruta: Tangerina",
+         "items": [
+            {
+               "code": "397",
+               "replaceable": true
+            },
+            {
+               "code": "319",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "89",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            },
+            {
+               "code": "144",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_manha",
+         "code": "105",
+         "description": "Biscoito salgado, Achocolatado quente, Fruta: Melancia",
+         "items": [
+            {
+               "code": "235",
+               "replaceable": true
+            },
+            {
+               "code": "13",
+               "replaceable": true
+            },
+            {
+               "code": "491",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_manha",
+         "code": "106",
+         "description": "Bolo, Achocolatado quente, Fruta: Melancia",
+         "items": [
+            {
+               "code": "800460199",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_manha",
+         "code": "107",
+         "description": "Bolo, Suco de acerola, Fruta: Mamão",
+         "items": [
+            {
+               "code": "458",
+               "replaceable": true
+            },
+            {
+               "code": "225",
+               "replaceable": true
+            },
+            {
+               "code": "489",
+               "replaceable": true
+            },
+            {
+               "code": "800460199",
+               "replaceable": true
+            },
+            {
+               "code": "35",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_manha",
+         "code": "108",
+         "description": "Cachorro quente de carne moída, Suco de abacaxi",
+         "items": [
+            {
+               "code": "352",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "164",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            },
+            {
+               "code": "800010399",
+               "replaceable": true
+            },
+            {
+               "code": "492",
+               "replaceable": true
+            },
+            {
+               "code": "144",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_manha",
+         "code": "109",
+         "description": "Cuscuz com ovos mexidos, Suco de maracujá",
+         "items": [
+            {
+               "code": "650080299",
+               "replaceable": true
+            },
+            {
+               "code": "489",
+               "replaceable": true
+            },
+            {
+               "code": "492",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_manha",
+         "code": "110",
+         "description": "Cuscuz temperado com ovo, Fruta: Melancia",
+         "items": [
+            {
+               "code": "110",
+               "replaceable": true
+            },
+            {
+               "code": "650080299",
+               "replaceable": true
+            },
+            {
+               "code": "489",
+               "replaceable": true
+            },
+            {
+               "code": "235",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_manha",
+         "code": "111",
+         "description": "Inhame com carne bovina ao molho, Fruta: Laranja",
+         "items": [
+            {
+               "code": "71091011",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "208",
+               "replaceable": true
+            },
+            {
+               "code": "158",
+               "replaceable": true
+            },
+            {
+               "code": "126",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_manha",
+         "code": "112",
+         "description": "Inhame, Charque acebolado com batatinha, Fruta: Melancia",
+         "items": [
+            {
+               "code": "92",
+               "replaceable": true
+            },
+            {
+               "code": "235",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "353",
+               "replaceable": true
+            },
+            {
+               "code": "126",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_manha",
+         "code": "113",
+         "description": "Macarronada de carne moída, Couve refogada, Suco de acerola",
+         "items": [
+            {
+               "code": "40",
+               "replaceable": true
+            },
+            {
+               "code": "352",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            },
+            {
+               "code": "492",
+               "replaceable": true
+            },
+            {
+               "code": "158",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_manha",
+         "code": "114",
+         "description": "Macarrão ao molho de tomate com carne moída Salada crua: Alface, tomate, cebola, Suco de maracujá",
+         "items": [
+            {
+               "code": "40",
+               "replaceable": true
+            },
+            {
+               "code": "352",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "78",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "492",
+               "replaceable": true
+            },
+            {
+               "code": "158",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_manha",
+         "code": "115",
+         "description": "Macaxeira com carne bovina acebolada + Vinagrete, Suco de goiaba",
+         "items": [
+            {
+               "code": "110",
+               "replaceable": true
+            },
+            {
+               "code": "71091011",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "130",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_manha",
+         "code": "116",
+         "description": "Macaxeira, frango cozido com batatinha e abóbora, Fruta: Abacaxi em rodelas",
+         "items": [
+            {
+               "code": "397",
+               "replaceable": true
+            },
+            {
+               "code": "92",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "130",
+               "replaceable": true
+            },
+            {
+               "code": "69",
+               "replaceable": true
+            },
+            {
+               "code": "164",
+               "replaceable": true
+            },
+            {
+               "code": "144",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_manha",
+         "code": "117",
+         "description": "Mungunzá com biscoito doce (Tipo :Maria)",
+         "items": [
+            {
+               "code": "458",
+               "replaceable": true
+            },
+            {
+               "code": "492",
+               "replaceable": true
+            },
+            {
+               "code": "523",
+               "replaceable": true
+            },
+            {
+               "code": "8",
+               "replaceable": true
+            },
+            {
+               "code": "850190299",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_manha",
+         "code": "118",
+         "description": "Pão de macaxeira com carne moída, Suco de maracujá",
+         "items": [
+            {
+               "code": "800150199",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_manha",
+         "code": "119",
+         "description": "Risoto de frango com cenoura, Salada: Couve refogada, Fruta: Tangerina",
+         "items": [
+            {
+               "code": "397",
+               "replaceable": true
+            },
+            {
+               "code": "110",
+               "replaceable": true
+            },
+            {
+               "code": "319",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "158",
+               "replaceable": true
+            },
+            {
+               "code": "115",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_manha",
+         "code": "120",
+         "description": "Sopa de feijão, charque e legumes , Fruta: Abacaxi em rodelas",
+         "items": [
+            {
+               "code": "40",
+               "replaceable": true
+            },
+            {
+               "code": "92",
+               "replaceable": true
+            },
+            {
+               "code": "110",
+               "replaceable": true
+            },
+            {
+               "code": "562",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "353",
+               "replaceable": true
+            },
+            {
+               "code": "164",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            },
+            {
+               "code": "144",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_manha",
+         "code": "121",
+         "description": "Torta salgada de carne moída com legumes, Suco de maracujá",
+         "items": [
+            {
+               "code": "110",
+               "replaceable": true
+            },
+            {
+               "code": "489",
+               "replaceable": true
+            },
+            {
+               "code": "352",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "114",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            },
+            {
+               "code": "35",
+               "replaceable": true
+            },
+            {
+               "code": "272",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "122",
+         "description": "Arroz doce, Biscoito doce, Fruta: Banana",
+         "items": [
+            {
+               "code": "458",
+               "replaceable": true
+            },
+            {
+               "code": "182",
+               "replaceable": true
+            },
+            {
+               "code": "492",
+               "replaceable": true
+            },
+            {
+               "code": "523",
+               "replaceable": true
+            },
+            {
+               "code": "660010199",
+               "replaceable": true
+            },
+            {
+               "code": "8",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "123",
+         "description": "Arroz, feijão peixe ao molho Salada de alface, tomate e cebola, Suco de abacaxi",
+         "items": [
+            {
+               "code": "562",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "78",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "74001011",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            },
+            {
+               "code": "158",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "124",
+         "description": "Arroz, feijão, Isca de frango acebolado, Salada crua: couve, tomate, cebola, Fruta: Mamão em cubos",
+         "items": [
+            {
+               "code": "397",
+               "replaceable": true
+            },
+            {
+               "code": "562",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            },
+            {
+               "code": "158",
+               "replaceable": true
+            },
+            {
+               "code": "115",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "125",
+         "description": "Arroz, feijão, frango cozido, Salada crua: Cenoura e beterraba ralada, Fruta: Laranja\n",
+         "items": [
+            {
+               "code": "397",
+               "replaceable": true
+            },
+            {
+               "code": "110",
+               "replaceable": true
+            },
+            {
+               "code": "562",
+               "replaceable": true
+            },
+            {
+               "code": "98",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            },
+            {
+               "code": "144",
+               "replaceable": true
+            },
+            {
+               "code": "208",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "126",
+         "description": "Batata doce, Frango coxa e sobrecoxa assada, Fruta: Tangerina",
+         "items": [
+            {
+               "code": "397",
+               "replaceable": true
+            },
+            {
+               "code": "319",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "89",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            },
+            {
+               "code": "144",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "127",
+         "description": "Biscoito salgado, Achocolatado quente, Fruta: Melancia",
+         "items": [
+            {
+               "code": "235",
+               "replaceable": true
+            },
+            {
+               "code": "13",
+               "replaceable": true
+            },
+            {
+               "code": "491",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "128",
+         "description": "Bolo, Achocolatado quente, Fruta: Melancia",
+         "items": [
+            {
+               "code": "800460199",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "129",
+         "description": "Bolo, Suco de acerola, Fruta: Mamão",
+         "items": [
+            {
+               "code": "458",
+               "replaceable": true
+            },
+            {
+               "code": "225",
+               "replaceable": true
+            },
+            {
+               "code": "489",
+               "replaceable": true
+            },
+            {
+               "code": "800460199",
+               "replaceable": true
+            },
+            {
+               "code": "35",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "130",
+         "description": "Cachorro quente de carne moída, Suco de abacaxi",
+         "items": [
+            {
+               "code": "352",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "164",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            },
+            {
+               "code": "800010399",
+               "replaceable": true
+            },
+            {
+               "code": "492",
+               "replaceable": true
+            },
+            {
+               "code": "144",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "131",
+         "description": "Cuscuz com ovos mexidos, Suco de maracujá",
+         "items": [
+            {
+               "code": "650080299",
+               "replaceable": true
+            },
+            {
+               "code": "489",
+               "replaceable": true
+            },
+            {
+               "code": "492",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "132",
+         "description": "Cuscuz temperado com ovo, Fruta: Melancia",
+         "items": [
+            {
+               "code": "110",
+               "replaceable": true
+            },
+            {
+               "code": "650080299",
+               "replaceable": true
+            },
+            {
+               "code": "489",
+               "replaceable": true
+            },
+            {
+               "code": "235",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "133",
+         "description": "Inhame com carne bovina ao molho, Fruta: Laranja",
+         "items": [
+            {
+               "code": "71091011",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "208",
+               "replaceable": true
+            },
+            {
+               "code": "158",
+               "replaceable": true
+            },
+            {
+               "code": "126",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "134",
+         "description": "Inhame, Charque acebolado com batatinha, Fruta: Melancia",
+         "items": [
+            {
+               "code": "92",
+               "replaceable": true
+            },
+            {
+               "code": "235",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "353",
+               "replaceable": true
+            },
+            {
+               "code": "126",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "135",
+         "description": "Macarronada de carne moída, Couve refogada, Suco de acerola",
+         "items": [
+            {
+               "code": "40",
+               "replaceable": true
+            },
+            {
+               "code": "352",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            },
+            {
+               "code": "492",
+               "replaceable": true
+            },
+            {
+               "code": "158",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "136",
+         "description": "Macarrão ao molho de tomate com carne moída Salada crua: Alface, tomate, cebola, Suco de maracujá",
+         "items": [
+            {
+               "code": "40",
+               "replaceable": true
+            },
+            {
+               "code": "352",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "78",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "492",
+               "replaceable": true
+            },
+            {
+               "code": "158",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "137",
+         "description": "Macaxeira com carne bovina acebolada + Vinagrete, Suco de goiaba",
+         "items": [
+            {
+               "code": "110",
+               "replaceable": true
+            },
+            {
+               "code": "71091011",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "130",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "138",
+         "description": "Macaxeira, frango cozido com batatinha e abóbora, Fruta: Abacaxi em rodelas",
+         "items": [
+            {
+               "code": "397",
+               "replaceable": true
+            },
+            {
+               "code": "92",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "130",
+               "replaceable": true
+            },
+            {
+               "code": "69",
+               "replaceable": true
+            },
+            {
+               "code": "164",
+               "replaceable": true
+            },
+            {
+               "code": "144",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "139",
+         "description": "Mungunzá com biscoito doce (Tipo :Maria)",
+         "items": [
+            {
+               "code": "458",
+               "replaceable": true
+            },
+            {
+               "code": "492",
+               "replaceable": true
+            },
+            {
+               "code": "523",
+               "replaceable": true
+            },
+            {
+               "code": "8",
+               "replaceable": true
+            },
+            {
+               "code": "850190299",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "140",
+         "description": "Pão de macaxeira com carne moída, Suco de maracujá",
+         "items": [
+            {
+               "code": "800150199",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "141",
+         "description": "Risoto de frango com cenoura, Salada: Couve refogada, Fruta: Tangerina",
+         "items": [
+            {
+               "code": "397",
+               "replaceable": true
+            },
+            {
+               "code": "110",
+               "replaceable": true
+            },
+            {
+               "code": "319",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "158",
+               "replaceable": true
+            },
+            {
+               "code": "115",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "142",
+         "description": "Sopa de feijão, charque e legumes , Fruta: Abacaxi em rodelas",
+         "items": [
+            {
+               "code": "40",
+               "replaceable": true
+            },
+            {
+               "code": "92",
+               "replaceable": true
+            },
+            {
+               "code": "110",
+               "replaceable": true
+            },
+            {
+               "code": "562",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "353",
+               "replaceable": true
+            },
+            {
+               "code": "164",
+               "replaceable": true
+            },
+            {
+               "code": "108",
+               "replaceable": true
+            },
+            {
+               "code": "144",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            }
+         ]
+      },
+      {
+         "schooltype": "QUILOMBOLA",
+         "mealtype": "Lanche_tarde",
+         "code": "143",
+         "description": "Torta salgada de carne moída com legumes, Suco de maracujá",
+         "items": [
+            {
+               "code": "110",
+               "replaceable": true
+            },
+            {
+               "code": "489",
+               "replaceable": true
+            },
+            {
+               "code": "352",
+               "replaceable": true
+            },
+            {
+               "code": "107",
+               "replaceable": true
+            },
+            {
+               "code": "157",
+               "replaceable": true
+            },
+            {
+               "code": "114",
+               "replaceable": true
+            },
+            {
+               "code": "82",
+               "replaceable": true
+            },
+            {
+               "code": "35",
+               "replaceable": true
+            },
+            {
+               "code": "272",
+               "replaceable": true
+            }
+         ]
+      }
+   ],
+   "grouping": [
+      {
+         "name": "CARBO1",
+         "items": [
+            {
+               "code": "3",
+               "gramsPortion": 117.0,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "40",
+               "gramsPortion": 90.0,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "630010199",
+               "gramsPortion": 117.0,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "850190299",
+               "gramsPortion": 50.0,
+               "homemadePortion": "1, Unidade"
+            }
+         ]
+      },
+      {
+         "name": "CARBO2",
+         "items": [
+            {
+               "code": "89",
+               "gramsPortion": 155.0,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "126",
+               "gramsPortion": 101.0,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "130",
+               "gramsPortion": 98.0,
+               "homemadePortion": "1, Unidade"
+            }
+         ]
+      },
+      {
+         "name": "COND",
+         "items": [
+            {
+               "code": "158",
+               "gramsPortion": 20.0,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "517",
+               "gramsPortion": 50.0,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "523",
+               "gramsPortion": 50.0,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "660010199",
+               "gramsPortion": 50.0,
+               "homemadePortion": "1, Unidade"
+            }
+         ]
+      },
+      {
+         "name": "FARINHAS",
+         "items": [
+            {
+               "code": "7",
+               "gramsPortion": 50.0,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "35",
+               "gramsPortion": 50.0,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "42",
+               "gramsPortion": 50.0,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "43",
+               "gramsPortion": 80.0,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "122",
+               "gramsPortion": 50.0,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "650080299",
+               "gramsPortion": 90.0,
+               "homemadePortion": "1, Unidade"
+            }
+         ]
+      },
+      {
+         "name": "FRUTAS",
+         "items": [
+            {
+               "code": "164",
+               "gramsPortion": 137.5,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "182",
+               "gramsPortion": 70.7,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "208",
+               "gramsPortion": 159.4,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "225",
+               "gramsPortion": 159.8,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "235",
+               "gramsPortion": 193.3,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "251",
+               "gramsPortion": 148.0,
+               "homemadePortion": "1, Unidade"
+            }
+         ]
+      },
+      {
+         "name": "HORTALICAS",
+         "items": [
+            {
+               "code": "69",
+               "gramsPortion": 65.0,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "78",
+               "gramsPortion": 50.9,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "82",
+               "gramsPortion": 50.0,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "92",
+               "gramsPortion": 40.0,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "98",
+               "gramsPortion": 44.0,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "107",
+               "gramsPortion": 50.0,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "108",
+               "gramsPortion": 50.0,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "110",
+               "gramsPortion": 46.7,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "113",
+               "gramsPortion": 70.5,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "114",
+               "gramsPortion": 50.0,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "115",
+               "gramsPortion": 17.5,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "144",
+               "gramsPortion": 21.5,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "147",
+               "gramsPortion": 49.8,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "157",
+               "gramsPortion": 25.1,
+               "homemadePortion": "1, Unidade"
+            }
+         ]
+      },
+      {
+         "name": "LEGUM",
+         "items": [
+            {
+               "code": "562",
+               "gramsPortion": 50.0,
+               "homemadePortion": "1, Unidade"
+            }
+         ]
+      },
+      {
+         "name": "LEITES",
+         "items": [
+            {
+               "code": "458",
+               "gramsPortion": 75.0,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "459",
+               "gramsPortion": 10.8,
+               "homemadePortion": "1, Unidade"
+            }
+         ]
+      },
+      {
+         "name": "NAD",
+         "items": [
+            {
+               "code": "261",
+               "gramsPortion": 10.0,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "272",
+               "gramsPortion": 5.0,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "491",
+               "gramsPortion": 22.0,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "492",
+               "gramsPortion": 10.0,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "511",
+               "gramsPortion": 20.0,
+               "homemadePortion": "1, Unidade"
+            }
+         ]
+      },
+      {
+         "name": "PANIFICADOS",
+         "items": [
+            {
+               "code": "8",
+               "gramsPortion": 30.0,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "13",
+               "gramsPortion": 31.3,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "61",
+               "gramsPortion": 100.0,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "690320299",
+               "gramsPortion": 30.0,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "800010399",
+               "gramsPortion": 50.5,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "800150199",
+               "gramsPortion": 42.2,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "800460199",
+               "gramsPortion": 45.0,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "801060199",
+               "gramsPortion": 45.0,
+               "homemadePortion": "1, Unidade"
+            }
+         ]
+      },
+      {
+         "name": "PROTEINA ANIMAL",
+         "items": [
+            {
+               "code": "319",
+               "gramsPortion": 62.0,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "352",
+               "gramsPortion": 52.0,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "353",
+               "gramsPortion": 50.0,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "397",
+               "gramsPortion": 93.0,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "409",
+               "gramsPortion": 95.0,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "489",
+               "gramsPortion": 75.0,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "71025011",
+               "gramsPortion": 70.0,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "71091011",
+               "gramsPortion": 80.0,
+               "homemadePortion": "1, Unidade"
+            },
+            {
+               "code": "74001011",
+               "gramsPortion": 125.0,
+               "homemadePortion": "1, Unidade"
+            }
+         ]
+      }
+   ],
+   "inventory": [
+      {
+         "foodCode": "3",
+         "amount": 10
+      },
+      {
+         "foodCode": "7",
+         "amount": 10
+      },
+      {
+         "foodCode": "8",
+         "amount": 10
+      },
+      {
+         "foodCode": "13",
+         "amount": 10
+      },
+      {
+         "foodCode": "35",
+         "amount": 10
+      },
+      {
+         "foodCode": "40",
+         "amount": 10
+      },
+      {
+         "foodCode": "42",
+         "amount": 10
+      },
+      {
+         "foodCode": "43",
+         "amount": 10
+      },
+      {
+         "foodCode": "61",
+         "amount": 10
+      },
+      {
+         "foodCode": "69",
+         "amount": 10
+      },
+      {
+         "foodCode": "78",
+         "amount": 10
+      },
+      {
+         "foodCode": "82",
+         "amount": 10
+      },
+      {
+         "foodCode": "89",
+         "amount": 10
+      },
+      {
+         "foodCode": "92",
+         "amount": 10
+      },
+      {
+         "foodCode": "98",
+         "amount": 10
+      },
+      {
+         "foodCode": "107",
+         "amount": 10
+      },
+      {
+         "foodCode": "108",
+         "amount": 10
+      },
+      {
+         "foodCode": "110",
+         "amount": 10
+      },
+      {
+         "foodCode": "113",
+         "amount": 10
+      },
+      {
+         "foodCode": "114",
+         "amount": 10
+      },
+      {
+         "foodCode": "115",
+         "amount": 10
+      },
+      {
+         "foodCode": "122",
+         "amount": 10
+      },
+      {
+         "foodCode": "126",
+         "amount": 10
+      },
+      {
+         "foodCode": "130",
+         "amount": 10
+      },
+      {
+         "foodCode": "144",
+         "amount": 10
+      },
+      {
+         "foodCode": "147",
+         "amount": 10
+      },
+      {
+         "foodCode": "157",
+         "amount": 10
+      },
+      {
+         "foodCode": "158",
+         "amount": 10
+      },
+      {
+         "foodCode": "164",
+         "amount": 10
+      },
+      {
+         "foodCode": "182",
+         "amount": 10
+      },
+      {
+         "foodCode": "208",
+         "amount": 10
+      },
+      {
+         "foodCode": "225",
+         "amount": 10
+      },
+      {
+         "foodCode": "235",
+         "amount": 10
+      },
+      {
+         "foodCode": "251",
+         "amount": 10
+      },
+      {
+         "foodCode": "261",
+         "amount": 10
+      },
+      {
+         "foodCode": "272",
+         "amount": 10
+      },
+      {
+         "foodCode": "319",
+         "amount": 10
+      },
+      {
+         "foodCode": "352",
+         "amount": 10
+      },
+      {
+         "foodCode": "353",
+         "amount": 10
+      },
+      {
+         "foodCode": "397",
+         "amount": 10
+      },
+      {
+         "foodCode": "409",
+         "amount": 10
+      },
+      {
+         "foodCode": "458",
+         "amount": 10
+      },
+      {
+         "foodCode": "459",
+         "amount": 10
+      },
+      {
+         "foodCode": "489",
+         "amount": 10
+      },
+      {
+         "foodCode": "491",
+         "amount": 10
+      },
+      {
+         "foodCode": "492",
+         "amount": 10
+      },
+      {
+         "foodCode": "511",
+         "amount": 10
+      },
+      {
+         "foodCode": "517",
+         "amount": 10
+      },
+      {
+         "foodCode": "523",
+         "amount": 10
+      },
+      {
+         "foodCode": "562",
+         "amount": 10
+      },
+      {
+         "foodCode": "71025011",
+         "amount": 10
+      },
+      {
+         "foodCode": "71091011",
+         "amount": 10
+      },
+      {
+         "foodCode": "74001011",
+         "amount": 10
+      },
+      {
+         "foodCode": "630010199",
+         "amount": 10
+      },
+      {
+         "foodCode": "650080299",
+         "amount": 10
+      },
+      {
+         "foodCode": "660010199",
+         "amount": 10
+      },
+      {
+         "foodCode": "690320299",
+         "amount": 10
+      },
+      {
+         "foodCode": "800010399",
+         "amount": 10
+      },
+      {
+         "foodCode": "800150199",
+         "amount": 10
+      },
+      {
+         "foodCode": "800460199",
+         "amount": 10
+      },
+      {
+         "foodCode": "801060199",
+         "amount": 10
+      },
+      {
+         "foodCode": "850190299",
+         "amount": 10
+      }
+   ],
+   "foods": [
+      {
+         "code": "3",
+         "name": "Arroz branco",
+         "protein": 2.52081666666667,
+         "lipid": 0.227,
+         "carbo": 28.05985,
+         "calorie": 128.258485666667
+      },
+      {
+         "code": "7",
+         "name": "Aveia em flocos finos",
+         "protein": 13.9210260869565,
+         "lipid": 8.49666666666667,
+         "carbo": 66.6356405797102,
+         "calorie": 393.822689449275
+      },
+      {
+         "code": "8",
+         "name": "Biscoito doce",
+         "protein": 8.07252173913043,
+         "lipid": 11.9666666666667,
+         "carbo": 75.2341449275362,
+         "calorie": 442.819390144928
+      },
+      {
+         "code": "13",
+         "name": "Biscoito salgado",
+         "protein": 10.0551304347826,
+         "lipid": 14.4366666666667,
+         "carbo": 68.7315362318841,
+         "calorie": 431.73228115942
+      },
+      {
+         "code": "35",
+         "name": "Farinha de trigo branca com fermento",
+         "protein": 9.79078260869565,
+         "lipid": 1.36666666666667,
+         "carbo": 75.0925507246377,
+         "calorie": 360.472978550725
+      },
+      {
+         "code": "40",
+         "name": "Massa de macarrão para sopa",
+         "protein": 9.99565217391304,
+         "lipid": 1.30333333333333,
+         "carbo": 77.944347826087,
+         "calorie": 371.122613043478
+      },
+      {
+         "code": "42",
+         "name": "Maisena",
+         "protein": 0.597826086956522,
+         "lipid": 0.0,
+         "carbo": 87.1488439130435,
+         "calorie": 361.366823878261
+      },
+      {
+         "code": "43",
+         "name": "Fubá de milho",
+         "protein": 7.21376811594203,
+         "lipid": 1.90333333333333,
+         "carbo": 78.8728985507246,
+         "calorie": 353.482268115942
+      },
+      {
+         "code": "61",
+         "name": "Milho de pipoca",
+         "protein": 9.92708333333334,
+         "lipid": 15.941,
+         "carbo": 70.3125833333333,
+         "calorie": 448.334261847198
+      },
+      {
+         "code": "69",
+         "name": "Abóbora",
+         "protein": 0.670833333333333,
+         "lipid": 0.116,
+         "carbo": 6.12283333333334,
+         "calorie": 24.4662679497004
+      },
+      {
+         "code": "78",
+         "name": "Alface",
+         "protein": 1.34782608695652,
+         "lipid": 0.16,
+         "carbo": 1.69550724637683,
+         "calorie": 10.6808565217392
+      },
+      {
+         "code": "82",
+         "name": "Alho",
+         "protein": 7.01086956521739,
+         "lipid": 0.22,
+         "carbo": 23.9057971014493,
+         "calorie": 113.12987826087
+      },
+      {
+         "code": "89",
+         "name": "Batata doce",
+         "protein": 1.25724637681159,
+         "lipid": 0.133333333333333,
+         "carbo": 28.1960869565217,
+         "calorie": 118.241375362319
+      },
+      {
+         "code": "92",
+         "name": "Batata inglesa",
+         "protein": 1.77173913043478,
+         "lipid": 0.0,
+         "carbo": 14.6882608695652,
+         "calorie": 64.3702260869565
+      },
+      {
+         "code": "98",
+         "name": "Beterraba",
+         "protein": 1.94565217391304,
+         "lipid": 0.09,
+         "carbo": 11.1110144927536,
+         "calorie": 48.8285086956522
+      },
+      {
+         "code": "107",
+         "name": "Cebola",
+         "protein": 1.71014492753623,
+         "lipid": 0.08,
+         "carbo": 8.8531884057971,
+         "calorie": 39.4200463768116
+      },
+      {
+         "code": "108",
+         "name": "Cebolinha",
+         "protein": 1.86594202898551,
+         "lipid": 0.35,
+         "carbo": 3.37072463768116,
+         "calorie": 19.5158855072464
+      },
+      {
+         "code": "110",
+         "name": "Cenoura",
+         "protein": 1.32246376811594,
+         "lipid": 0.173333333333333,
+         "carbo": 7.66,
+         "calorie": 34.1353884057971
+      },
+      {
+         "code": "113",
+         "name": "Chuchu",
+         "protein": 0.699275362318841,
+         "lipid": 0.06,
+         "carbo": 4.13739130434783,
+         "calorie": 16.9789188405797
+      },
+      {
+         "code": "114",
+         "name": "Coentro",
+         "protein": 20.875,
+         "lipid": 10.3866666666667,
+         "carbo": 47.955,
+         "calorie": 309.070746804476
+      },
+      {
+         "code": "115",
+         "name": "Couve",
+         "protein": 2.8731884057971,
+         "lipid": 0.546666666666667,
+         "carbo": 4.33347826086956,
+         "calorie": 27.0566971014493
+      },
+      {
+         "code": "122",
+         "name": "Farinha de mandioca",
+         "protein": 1.22916666666667,
+         "lipid": 0.286666666666667,
+         "carbo": 89.1941666666667,
+         "calorie": 365.268975
+      },
+      {
+         "code": "126",
+         "name": "Inhame",
+         "protein": 2.05072463768116,
+         "lipid": 0.213333333333333,
+         "carbo": 23.2326086956522,
+         "calorie": 96.699831884058
+      },
+      {
+         "code": "130",
+         "name": "Macaxeira à vacuo",
+         "protein": 1.1304347826087,
+         "lipid": 0.3,
+         "carbo": 36.1695652173913,
+         "calorie": 151.416956521739
+      },
+      {
+         "code": "144",
+         "name": "Pimentão",
+         "protein": 1.05072463768116,
+         "lipid": 0.15,
+         "carbo": 4.89260869565218,
+         "calorie": 21.2858811594203
+      },
+      {
+         "code": "147",
+         "name": "Quiabo",
+         "protein": 1.91875,
+         "lipid": 0.299,
+         "carbo": 6.37391666666667,
+         "calorie": 29.9392621500691
+      },
+      {
+         "code": "157",
+         "name": "Tomate",
+         "protein": 1.09782608695652,
+         "lipid": 0.173333333333333,
+         "carbo": 3.13884057971015,
+         "calorie": 15.3351565217392
+      },
+      {
+         "code": "158",
+         "name": "Extrato de tomate",
+         "protein": 2.43478260869565,
+         "lipid": 0.19,
+         "carbo": 14.9586173913043,
+         "calorie": 60.9334336521739
+      },
+      {
+         "code": "164",
+         "name": "Abacaxi",
+         "protein": 0.858695652173913,
+         "lipid": 0.123333333333333,
+         "carbo": 12.3346376811594,
+         "calorie": 48.3222130434782
+      },
+      {
+         "code": "182",
+         "name": "Banana prata",
+         "protein": 1.26811594202899,
+         "lipid": 0.065,
+         "carbo": 25.956884057971,
+         "calorie": 98.2497021739131
+      },
+      {
+         "code": "208",
+         "name": "Laranja",
+         "protein": 0.978260869565217,
+         "lipid": 0.103333333333333,
+         "carbo": 11.4684057971015,
+         "calorie": 45.4381173913043
+      },
+      {
+         "code": "225",
+         "name": "Mamão",
+         "protein": 0.815217391304348,
+         "lipid": 0.12,
+         "carbo": 11.5547826086956,
+         "calorie": 45.3407478260869
+      },
+      {
+         "code": "235",
+         "name": "Melancia",
+         "protein": 0.884057971014493,
+         "lipid": 0.0,
+         "carbo": 8.13927536231884,
+         "calorie": 32.6066260869565
+      },
+      {
+         "code": "251",
+         "name": "Tangerina",
+         "protein": 0.847826086956522,
+         "lipid": 0.0733333333333334,
+         "carbo": 9.60999999999999,
+         "calorie": 37.8305999999999
+      },
+      {
+         "code": "261",
+         "name": "Manteiga",
+         "protein": 0.41470000743866,
+         "lipid": 82.361,
+         "carbo": 0.0632999925613329,
+         "calorie": 725.968926845999
+      },
+      {
+         "code": "272",
+         "name": "Óleo de soja",
+         "protein": 0.0,
+         "lipid": 100.0,
+         "carbo": 0.0,
+         "calorie": 884.0
+      },
+      {
+         "code": "319",
+         "name": "Sardinha em conserva",
+         "protein": 15.9395833333333,
+         "lipid": 24.0486666666667,
+         "carbo": 0.0,
+         "calorie": 284.981004871249
+      },
+      {
+         "code": "352",
+         "name": "Carne bovina moída",
+         "protein": 21.23,
+         "lipid": 8.69333333333333,
+         "carbo": 0.0,
+         "calorie": 169.065966666667
+      },
+      {
+         "code": "353",
+         "name": "Carne bovina salgada",
+         "protein": 28.63125,
+         "lipid": 23.0426666666667,
+         "carbo": 0.0,
+         "calorie": 330.100290833333
+      },
+      {
+         "code": "397",
+         "name": "Franco (coxa e sobrecoxa)",
+         "protein": 17.0933333333333,
+         "lipid": 9.81,
+         "carbo": 0.0,
+         "calorie": 161.474733333333
+      },
+      {
+         "code": "409",
+         "name": "Filé de peito de frango",
+         "protein": 21.5266666666667,
+         "lipid": 3.02,
+         "carbo": 0.0,
+         "calorie": 119.159266666667
+      },
+      {
+         "code": "458",
+         "name": "Leite fluido UHT",
+         "protein": 3.221,
+         "lipid": 3.251,
+         "carbo": 4.522,
+         "calorie": 60.025
+      },
+      {
+         "code": "459",
+         "name": "Leite em pó",
+         "protein": 25.42,
+         "lipid": 26.9033333333333,
+         "carbo": 39.18,
+         "calorie": 496.6503
+      },
+      {
+         "code": "489",
+         "name": "Ovo",
+         "protein": 13.03,
+         "lipid": 8.9,
+         "carbo": 1.63666666666667,
+         "calorie": 143.111733333333
+      },
+      {
+         "code": "491",
+         "name": "Achocolatado em pó",
+         "protein": 4.20333333333333,
+         "lipid": 2.16666666666667,
+         "carbo": 91.1766666666667,
+         "calorie": 401.02
+      },
+      {
+         "code": "492",
+         "name": "Açúcar cristal",
+         "protein": 0.32,
+         "lipid": 0.0,
+         "carbo": 99.61,
+         "calorie": 386.845724
+      },
+      {
+         "code": "511",
+         "name": "Café em pó",
+         "protein": 14.7,
+         "lipid": 11.9466666666667,
+         "carbo": 65.7533333333333,
+         "calorie": 418.618666666667
+      },
+      {
+         "code": "517",
+         "name": "Sal refinado iodado",
+         "protein": 0.0,
+         "lipid": 0.0,
+         "carbo": 0.0,
+         "calorie": 0.0
+      },
+      {
+         "code": "523",
+         "name": "Leite de coco",
+         "protein": 1.0140667031606,
+         "lipid": 18.3643333333333,
+         "carbo": 2.19459996350605,
+         "calorie": 166.160301615546
+      },
+      {
+         "code": "562",
+         "name": "Feijão carioquinha",
+         "protein": 19.981884057971,
+         "lipid": 1.25666666666667,
+         "carbo": 61.2214492753623,
+         "calorie": 329.026736231884
+      },
+      {
+         "code": "71025011",
+         "name": "Fígado ",
+         "protein": 29.08,
+         "lipid": 5.26,
+         "carbo": 5.13,
+         "calorie": 191.0
+      },
+      {
+         "code": "71091011",
+         "name": "Carne bovina congelada",
+         "protein": 24.22,
+         "lipid": 15.42,
+         "carbo": 0.0,
+         "calorie": 242.0
+      },
+      {
+         "code": "74001011",
+         "name": "Filé de peixe",
+         "protein": 24.16,
+         "lipid": 1.53,
+         "carbo": 0.0,
+         "calorie": 117.0
+      },
+      {
+         "code": "630010199",
+         "name": "Arroz parboilizado",
+         "protein": 2.4961126633333333,
+         "lipid": 1.200042,
+         "carbo": 27.784863469999994,
+         "calorie": 135.6229457071333
+      },
+      {
+         "code": "650080299",
+         "name": "Farinha de milho floco para cuscuz",
+         "protein": 4.35,
+         "lipid": 0.22,
+         "carbo": 26.42,
+         "calorie": 128.3
+      },
+      {
+         "code": "660010199",
+         "name": "Coco seco ralado",
+         "protein": 3.33,
+         "lipid": 33.49,
+         "carbo": 15.23,
+         "calorie": 354.0
+      },
+      {
+         "code": "690320299",
+         "name": "Pé de moleque",
+         "protein": 9.1,
+         "lipid": 17.91,
+         "carbo": 69.2,
+         "calorie": 474.0
+      },
+      {
+         "code": "800010399",
+         "name": "Pão tipo hot dog",
+         "protein": 9.5,
+         "lipid": 4.33,
+         "carbo": 49.45,
+         "calorie": 279.0
+      },
+      {
+         "code": "800150199",
+         "name": "Pão de macaxeira",
+         "protein": 8.0,
+         "lipid": 3.1,
+         "carbo": 58.6,
+         "calorie": 300.0
+      },
+      {
+         "code": "800460199",
+         "name": "Bolo caseiro",
+         "protein": 6.91,
+         "lipid": 4.24,
+         "carbo": 55.27,
+         "calorie": 286.6
+      },
+      {
+         "code": "801060199",
+         "name": "Bolo de banana",
+         "protein": 3.928,
+         "lipid": 9.069,
+         "carbo": 52.137,
+         "calorie": 300.054
+      },
+      {
+         "code": "850190299",
+         "name": "Milho para mungunzá",
+         "protein": 4.0,
+         "lipid": 3.9,
+         "carbo": 24.4,
+         "calorie": 146.0
+      }
+   ]
+}
